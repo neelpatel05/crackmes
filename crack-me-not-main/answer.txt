@@ -1,0 +1,8 @@
+./CNM
+
+Enter key: ./CNM
+1
+7
+8
+5
+Good key!
