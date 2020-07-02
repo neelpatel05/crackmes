@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000968 0x00000968 28  29   .rodata ascii Hi Scooby !!\nWhere are you??
+1   0x00000988 0x00000988 26  27   .rodata ascii \nYou won a medal Scooby !!
+2   0x000009a8 0x000009a8 33  34   .rodata ascii \nScooby Doobie Doo!! Not too easy
