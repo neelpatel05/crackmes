@@ -1,0 +1,38 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00001030 GLOBAL FUNC       __errno_location
+2   0x00001040 GLOBAL FUNC       sym.imp.std::__throw_bad_alloc()
+3   0x00001050 GLOBAL FUNC       __cxa_begin_catch
+4   0x00000000 WEAK   FUNC       __cxa_finalize
+5   0x00001060 GLOBAL FUNC       strlen
+6   0x00001070 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+7   0x00001080 GLOBAL FUNC       memset
+8   0x00001090 GLOBAL FUNC       sym.imp.std::__throw_invalid_argument(char const*)
+9   0x000010a0 GLOBAL FUNC       sym.imp.std::__throw_logic_error(char const*)
+10  0x000010b0 GLOBAL FUNC       memcpy
+11  0x000010c0 GLOBAL FUNC       __cxa_atexit
+12  0x000010d0 GLOBAL FUNC       sym.imp.operator delete(void*)
+13  0x000010e0 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+14  0x000010f0 GLOBAL FUNC       sym.imp.operator new(unsigned long)
+15  0x00001100 GLOBAL FUNC       __stack_chk_fail
+16  0x00001110 GLOBAL FUNC       exit
+17  0x00001120 GLOBAL FUNC       __cxa_get_exception_ptr
+18  0x00001130 GLOBAL FUNC       strtol
+19  0x00001140 GLOBAL FUNC       sym.imp.std::__throw_out_of_range(char const*)
+20  0x00001150 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+21  0x00001160 GLOBAL FUNC       memmove
+22  0x00001170 GLOBAL FUNC       __cxa_end_catch
+23  0x00000000 GLOBAL FUNC       __gxx_personality_v0
+24  0x00001180 GLOBAL FUNC       sym.imp.std::invalid_argument::~invalid_argument()
+25  0x00001190 GLOBAL FUNC       sym.imp.std::logic_error::logic_error(std::logic_error const&)
+26  0x000011a0 GLOBAL FUNC       sym.imp.std::ostream::operator<<(int)
+27  0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+28  0x000011b0 GLOBAL FUNC       _Unwind_Resume
+29  0x000011c0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)
+30  0x00000000 GLOBAL OBJ        sym.imp.typeinfo for std::invalid_argument
+31  0x00000000 GLOBAL FUNC       __libc_start_main
+32  0x00000000 WEAK   NOTYPE     __gmon_start__
+33  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+34  0x00000000 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+

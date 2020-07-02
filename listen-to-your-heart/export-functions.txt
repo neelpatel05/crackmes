@@ -1,0 +1,5 @@
+[Exports]
+
+nth paddr       vaddr      bind   type size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――
+35   ---------- 0x00004120 GLOBAL OBJ  272      std::cout

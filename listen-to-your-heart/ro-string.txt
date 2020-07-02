@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002008 0x00002008 41  42   .rodata ascii Usage:\n\t$ listen-to-your-heart <numbers>\n
+1   0x00002038 0x00002038 41  42   .rodata ascii basic_string::_M_construct null not valid
+2   0x00002068 0x00002068 4   5    .rodata ascii stoi
+3   0x0000206d 0x0000206d 15  16   .rodata ascii Only Integers!\n
