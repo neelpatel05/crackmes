@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002005 0x00002005 4   5    .rodata ascii pass
+1   0x0000200a 0x0000200a 20  21   .rodata ascii Enter the password: 
+2   0x0000201f 0x0000201f 9   10   .rodata ascii Welldone!
+3   0x00002029 0x00002029 4   5    .rodata ascii Nope
