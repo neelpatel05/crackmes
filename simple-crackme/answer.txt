@@ -1,0 +1,9 @@
+ltrace ./crackme > answer.txt
+printf("Enter key: ")                                   = 11
+__isoc99_scanf(0x555a8617d010, 0x7ffd1a5faa20, 0, 0AAAA
+)    = 1
+strcmp("AAAA", "bd4c217637bc828982c090b2de41b84d"...)   = -33
+puts("try again!")                                      = 11
++++ exited (status 0) +++
+
+Answer is bd4c217637bc828982c090b2de41b84d

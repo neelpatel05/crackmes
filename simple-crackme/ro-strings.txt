@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002004 0x00002004 11  12   .rodata ascii Enter key: 
+1   0x00002013 0x00002013 9   10   .rodata ascii good job!
+2   0x0000201d 0x0000201d 10  11   .rodata ascii try again!
+0   0x00003060 0x00004060 32  33   .data   ascii eca1b0a3b47138acc78d84862bdb78ac
