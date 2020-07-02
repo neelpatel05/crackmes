@@ -1,0 +1,4 @@
+./easyAF
+
+Enter the password: pass
+Welldone!
