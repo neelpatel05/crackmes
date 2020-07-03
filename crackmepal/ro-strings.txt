@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002004 0x00002004 16  17   .rodata ascii usage <password>
+1   0x00002015 0x00002015 25  26   .rodata ascii good job! now keygen me!\n
+2   0x0000202f 0x0000202f 15  16   .rodata ascii try again pal.\n
