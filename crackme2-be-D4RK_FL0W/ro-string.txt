@@ -1,0 +1,12 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002009 0x00002009 28  29   .rodata ascii \nPlease Enter The Password: 
+1   0x00002028 0x00002028 31  32   .rodata ascii \n\n***Correct You Cracked It***\n
+2   0x00002048 0x00002048 7   8    .rodata ascii \nWrong\n
+0   0x00003050 0x00004050 5   6    .data   ascii Hello
+1   0x00003056 0x00004056 4   5    .data   ascii this
+2   0x00003061 0x00004061 6   7    .data   ascii rackMe
+3   0x00003068 0x00004068 4   5    .data   ascii from
+4   0x00003070 0x00004070 9   10   .data   ascii D4RK_FL0W
+5   0x0000307a 0x0000407a 4   5    .data   ascii HAVE

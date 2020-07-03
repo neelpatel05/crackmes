@@ -1,0 +1,5 @@
+./crackme-binary
+
+Please Enter The Password: isAAthisFunBBCCD
+
+***Correct You Cracked It***

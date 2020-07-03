@@ -1,0 +1,31 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+12   ---------- 0x000041c0 GLOBAL OBJ    280      std::cin
+13   ---------- 0x000040a0 GLOBAL OBJ    272      std::cout
+49   ---------- 0x00004083 GLOBAL NOTYPE 0        _edata
+50   0x00003068 0x00004068 GLOBAL OBJ    5        key6
+53   0x00002000 0x00002000 GLOBAL OBJ    4        _IO_stdin_used
+56   0x00001175 0x00001175 GLOBAL FUNC   119      main
+57   0x0000305b 0x0000405b GLOBAL OBJ    3        key3
+58   0x00003048 0x00004048 GLOBAL OBJ    0        __dso_handle
+59   0x000013b4 0x000013b4 GLOBAL FUNC   0        _fini
+60   0x0000305e 0x0000405e GLOBAL OBJ    2        key4
+61   ---------- 0x000042e0 GLOBAL OBJ    16       pass
+63   0x00003050 0x00004050 GLOBAL OBJ    6        key1
+64   0x00001090 0x00001090 GLOBAL FUNC   43       _start
+66   0x0000307f 0x0000407f GLOBAL OBJ    4        key9
+67   ---------- 0x00004088 GLOBAL OBJ    0        __TMC_END__
+68   0x00003056 0x00004056 GLOBAL OBJ    5        key2
+69   ---------- 0x000040a0 GLOBAL OBJ    272      std::cout
+70   0x00003040 0x00004040 GLOBAL NOTYPE 0        __data_start
+71   ---------- 0x000042f8 GLOBAL NOTYPE 0        _end
+72   0x00003070 0x00004070 GLOBAL OBJ    10       key7
+73   ---------- 0x00004083 GLOBAL NOTYPE 0        __bss_start
+75   0x00001350 0x00001350 GLOBAL FUNC   93       __libc_csu_init
+76   0x0000307a 0x0000407a GLOBAL OBJ    5        key8
+79   0x000013b0 0x000013b0 GLOBAL FUNC   1        __libc_csu_fini
+80   ---------- 0x000041c0 GLOBAL OBJ    280      std::cin
+81   0x000011ec 0x000011ec GLOBAL FUNC   77       check_password(char*)
+85   0x00003060 0x00004060 GLOBAL OBJ    8        key5
