@@ -1,0 +1,9 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x08048328 WEAK   NOTYPE     __gmon_start__
+2   0x08048338 GLOBAL FUNC       fgets
+3   0x08048348 GLOBAL FUNC       __libc_start_main
+4   0x08048358 GLOBAL FUNC       strlen
+5   0x08048368 GLOBAL FUNC       printf
+

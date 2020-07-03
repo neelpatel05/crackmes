@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x000005a0 0x080485a0 43  44   .rodata ascii KeyGenMe1 by ascii for http://crackmes.de/\n
+1   0x000005cc 0x080485cc 5   6    .rodata ascii Key: 
+2   0x000005d2 0x080485d2 11  12   .rodata ascii Good key !\n
+3   0x000005de 0x080485de 14  15   .rodata ascii Invalid key !\n
