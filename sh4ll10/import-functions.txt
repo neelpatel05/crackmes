@@ -1,0 +1,29 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+2   0x00000000 WEAK   NOTYPE     __gmon_start__
+3   0x00400dd0 GLOBAL FUNC       exit
+4   0x00400de0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::length() const
+5   0x00400df0 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+6   0x00000000 GLOBAL FUNC       __libc_start_main
+7   0x00400e00 GLOBAL FUNC       __cxa_atexit
+8   0x00400e10 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char)
+9   0x00400e20 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+10  0x00400e30 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+11  0x00400e40 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
+12  0x00400e50 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+14  0x00400e60 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data() const
+15  0x00400e70 GLOBAL FUNC       sym.imp.std::allocator<char>::~allocator()
+16  0x00400e80 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const
+17  0x00400e90 GLOBAL FUNC       memcmp
+18  0x00400ea0 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+19  0x00400eb0 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+20  0x00400ec0 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+21  0x00400ed0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+22  0x00400ee0 GLOBAL FUNC       sym.imp.std::allocator<char>::allocator()
+23  0x00400ef0 GLOBAL FUNC       __gxx_personality_v0
+24  0x00400f00 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+25  0x00400f10 GLOBAL FUNC       _Unwind_Resume
+26  0x00400f20 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)
+27  0x00400f30 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)
+

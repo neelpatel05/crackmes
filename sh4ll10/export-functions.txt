@@ -1,0 +1,25 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1    ---------- 0x006020e0 GLOBAL OBJ    280      std::cin
+13   ---------- 0x00602200 GLOBAL OBJ    272      std::cout
+49   ---------- 0x006020e0 GLOBAL OBJ    280      std::cin
+51   0x00001730 0x00401730 GLOBAL FUNC   2        __libc_csu_fini
+52   0x00000f40 0x00400f40 GLOBAL FUNC   43       _start
+56   0x00001734 0x00401734 GLOBAL FUNC   0        _fini
+60   ---------- 0x00602360 GLOBAL OBJ    4        strLength
+66   0x00001740 0x00401740 GLOBAL OBJ    4        _IO_stdin_used
+67   0x000020d0 0x006020d0 GLOBAL NOTYPE 0        __data_start
+69   ---------- 0x006020e0 GLOBAL OBJ    0        __TMC_END__
+70   ---------- 0x00602200 GLOBAL OBJ    272      std::cout
+71   0x000020d8 0x006020d8 GLOBAL OBJ    0        __dso_handle
+72   0x000016c0 0x004016c0 GLOBAL FUNC   101      __libc_csu_init
+74   ---------- 0x006020e0 GLOBAL NOTYPE 0        __bss_start
+77   ---------- 0x00602340 GLOBAL OBJ    32       str[abi:cxx11]
+78   0x00001281 0x00401281 GLOBAL FUNC   614      _static_initialization_and_destruction()
+81   ---------- 0x00602370 GLOBAL NOTYPE 0        _end
+86   ---------- 0x006020e0 GLOBAL NOTYPE 0        _edata
+92   ---------- 0x00602320 GLOBAL OBJ    32       falsePassword[abi:cxx11]
+93   0x00001012 0x00401012 GLOBAL FUNC   623      main
+94   0x00000da8 0x00400da8 GLOBAL FUNC   0        _init

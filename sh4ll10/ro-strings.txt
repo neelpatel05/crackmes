@@ -1,0 +1,8 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00001750 0x00401750 44  45   .rodata ascii The goal is to print the good boy. Good luck
+1   0x00001780 0x00401780 67  68   .rodata ascii If there is no output printed, then you didn't validate the crackme
+2   0x000017c4 0x004017c4 12  13   .rodata ascii Bad password
+3   0x000017d1 0x004017d1 13  14   .rodata ascii Good password
+4   0x000017e0 0x004017e0 32  33   .rodata ascii 1d47faf54f84dc393a4a015a8f190e36
