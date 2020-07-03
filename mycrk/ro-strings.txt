@@ -1,0 +1,5 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000514 0x08048514 13  14   .rodata ascii Type cd-key: 
+1   0x00000529 0x08048529 7   8    .rodata ascii wrong!\n
