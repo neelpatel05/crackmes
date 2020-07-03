@@ -1,0 +1,29 @@
+arch     x86
+baddr    0x8048000
+binsz    439215
+bintype  elf
+bits     32
+canary   false
+class    ELF32
+compiler GCC: (GNU) 3.4.4 (Gentoo 3.4.4-r1, ssp-3.4.4-1.0, pie-8.7.8)
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     c
+linenum  false
+lsyms    false
+machine  Intel 80386
+maxopsz  16
+minopsz  1
+nx       true
+os       linux
+pcalign  0
+pic      false
+relocs   false
+rpath    NONE
+sanitiz  false
+static   true
+stripped true
+subsys   linux
+va       true

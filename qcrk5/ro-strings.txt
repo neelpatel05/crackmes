@@ -1,0 +1,1083 @@
+[Strings]
+nth  paddr      vaddr      len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x00050288 0x08098288 22  23   .rodata ascii   Usage : %s <password>\n
+1    0x0005029f 0x0809829f 9   10   .rodata ascii   Using %s\n
+2    0x000502a9 0x080982a9 20  21   .rodata ascii   Correct, Cracked !!\n
+3    0x000502be 0x080982be 7   8    .rodata ascii   Wrong!\n
+4    0x000502c6 0x080982c6 26  27   .rodata ascii   /proc/sys/kernel/osrelease
+5    0x000502e1 0x080982e1 22  23   .rodata ascii   FATAL: kernel too old\n
+6    0x000502f8 0x080982f8 39  40   .rodata ascii   FATAL: cannot determine kernel version\n
+7    0x00050320 0x08098320 9   10   .rodata ascii   /dev/null
+8    0x0005032a 0x0809832a 12  13   .rodata ascii   /dev/urandom
+9    0x0005033c 0x0809833c 36  37   .rodata ascii   : stack smashing attack in function 
+10   0x000503c4 0x080983c4 4   5    .rodata ascii   UUUU
+11   0x000503cb 0x080983cb 5   6    .rodata ascii   ?3333
+12   0x00050404 0x08098404 4   5    .rodata ascii   ^Cy\r
+13   0x00050413 0x08098413 5   6    .rodata ascii   \v,d!\v
+14   0x00050423 0x08098423 6   7    .rodata ascii   \t^B{\tI
+15   0x00050443 0x08098443 5   6    .rodata ascii   \a\auP\a
+16   0x0005044b 0x0809844b 19  20   .rodata ascii   \aLIBC_FATAL_STDERR_
+17   0x0005045f 0x0809845f 8   9    .rodata ascii   /dev/tty
+18   0x00050468 0x08098468 28  29   .rodata ascii   corrupted double-linked list
+19   0x00050485 0x08098485 28  29   .rodata ascii   malloc: top chunk is corrupt
+20   0x000504a2 0x080984a2 23  24   .rodata ascii   free(): invalid pointer
+21   0x000504ba 0x080984ba 27  28   .rodata ascii   malloc(): memory corruption
+22   0x000504d6 0x080984d6 23  24   .rodata ascii   realloc(): invalid size
+23   0x000504ee 0x080984ee 26  27   .rodata ascii   realloc(): invalid pointer
+24   0x00050509 0x08098509 28  29   .rodata ascii   realloc(): invalid next size
+25   0x00050526 0x08098526 29  30   .rodata ascii   malloc: using debugging hooks
+26   0x00050544 0x08098544 8   9    .rodata ascii   TOP_PAD_
+27   0x0005054d 0x0809854d 15  16   .rodata ascii   TRIM_THRESHOLD_
+28   0x0005055d 0x0809855d 15  16   .rodata ascii   MMAP_THRESHOLD_
+29   0x0005056d 0x0809856d 9   10   .rodata ascii   MMAP_MAX_
+30   0x00050577 0x08098577 10  11   .rodata ascii   Arena %d:\n
+31   0x00050582 0x08098582 24  25   .rodata ascii   system bytes     = %10u\n
+32   0x0005059b 0x0809859b 24  25   .rodata ascii   in use bytes     = %10u\n
+33   0x000505b4 0x080985b4 20  21   .rodata ascii   Total (incl. mmap):\n
+34   0x000505c9 0x080985c9 25  26   .rodata ascii   max mmap bytes   = %10lu\n
+35   0x000505e3 0x080985e3 24  25   .rodata ascii   max mmap regions = %10u\n
+36   0x000505fc 0x080985fc 36  37   .rodata ascii   *** glibc detected *** %s: 0x%s ***\n
+37   0x00050624 0x08098624 31  32   .rodata ascii   double free or corruption (top)
+38   0x00050644 0x08098644 33  34   .rodata ascii   double free or corruption (!prev)
+39   0x00050668 0x08098668 35  36   .rodata ascii   double free or corruption (fasttop)
+40   0x0005068c 0x0809868c 34  35   .rodata ascii   free(): invalid next size (normal)
+41   0x000506b0 0x080986b0 32  33   .rodata ascii   free(): invalid next size (fast)
+42   0x000506d4 0x080986d4 31  32   .rodata ascii   double free or corruption (out)
+43   0x000506f4 0x080986f4 34  35   .rodata ascii   malloc(): memory corruption (fast)
+44   0x00050733 0x08098733 5   6    .rodata ascii   \b<%d>
+45   0x00050739 0x08098739 9   10   .rodata ascii   %h %e %T 
+46   0x00050743 0x08098743 4   5    .rodata ascii   [%d]
+47   0x00050748 0x08098748 12  13   .rodata ascii   /dev/console
+48   0x00050755 0x08098755 4   5    .rodata ascii   %s\r\n
+49   0x0005075c 0x0809875c 37  38   .rodata ascii   syslog: unknown facility/priority: %x
+50   0x000507a0 0x080987a0 4   5    .rodata ascii   i386
+51   0x000507a5 0x080987a5 4   5    .rodata ascii   i486
+52   0x000507aa 0x080987aa 4   5    .rodata ascii   i586
+53   0x000507af 0x080987af 4   5    .rodata ascii   i686
+54   0x00050808 0x08098808 4   5    .rodata ascii   apic
+55   0x00050820 0x08098820 4   5    .rodata ascii   mtrr
+56   0x00050838 0x08098838 4   5    .rodata ascii   cmov
+57   0x00050848 0x08098848 5   6    .rodata ascii   pse36
+58   0x00050858 0x08098858 7   8    .rodata ascii   clflush
+59   0x00050870 0x08098870 4   5    .rodata ascii   acpi
+60   0x00050880 0x08098880 4   5    .rodata ascii   fxsr
+61   0x00050890 0x08098890 4   5    .rodata ascii   sse2
+62   0x000508b0 0x080988b0 4   5    .rodata ascii   ia64
+63   0x00050940 0x08098940 10  11   .rodata ascii   LD_PRELOAD
+64   0x0005094b 0x0809894b 15  16   .rodata ascii   LD_LIBRARY_PATH
+65   0x0005095b 0x0809895b 14  15   .rodata ascii   LD_ORIGIN_PATH
+66   0x0005096a 0x0809896a 8   9    .rodata ascii   LD_DEBUG
+67   0x00050973 0x08098973 15  16   .rodata ascii   LD_DEBUG_OUTPUT
+68   0x00050983 0x08098983 10  11   .rodata ascii   LD_PROFILE
+69   0x0005098e 0x0809898e 16  17   .rodata ascii   LD_USE_LOAD_BIAS
+70   0x0005099f 0x0809899f 15  16   .rodata ascii   LD_DYNAMIC_WEAK
+71   0x000509af 0x080989af 12  13   .rodata ascii   LD_SHOW_AUXV
+72   0x000509bc 0x080989bc 10  11   .rodata ascii   GCONV_PATH
+73   0x000509c7 0x080989c7 11  12   .rodata ascii   GETCONF_DIR
+74   0x000509d3 0x080989d3 11  12   .rodata ascii   HOSTALIASES
+75   0x000509df 0x080989df 11  12   .rodata ascii   LOCALDOMAIN
+76   0x000509eb 0x080989eb 7   8    .rodata ascii   LOCPATH
+77   0x000509f3 0x080989f3 12  13   .rodata ascii   MALLOC_TRACE
+78   0x00050a00 0x08098a00 7   8    .rodata ascii   NLSPATH
+79   0x00050a08 0x08098a08 16  17   .rodata ascii   RESOLV_HOST_CONF
+80   0x00050a19 0x08098a19 11  12   .rodata ascii   RES_OPTIONS
+81   0x00050a25 0x08098a25 6   7    .rodata ascii   TMPDIR
+82   0x00050a2c 0x08098a2c 5   6    .rodata ascii   TZDIR
+83   0x00050a32 0x08098a32 20  21   .rodata ascii   LD_AOUT_LIBRARY_PATH
+84   0x00050a47 0x08098a47 15  16   .rodata ascii   LD_AOUT_PRELOAD
+85   0x00050a58 0x08098a58 8   9    .rodata ascii   /var/tmp
+86   0x00050a61 0x08098a61 12  13   .rodata ascii   /var/profile
+87   0x00050a6e 0x08098a6e 7   8    .rodata ascii   LD_WARN
+88   0x00050a76 0x08098a76 15  16   .rodata ascii   LD_LIBRARY_PATH
+89   0x00050a86 0x08098a86 11  12   .rodata ascii   LD_BIND_NOW
+90   0x00050a92 0x08098a92 11  12   .rodata ascii   LD_BIND_NOT
+91   0x00050a9e 0x08098a9e 15  16   .rodata ascii   LD_DYNAMIC_WEAK
+92   0x00050aae 0x08098aae 17  18   .rodata ascii   LD_PROFILE_OUTPUT
+93   0x00050ac0 0x08098ac0 15  16   .rodata ascii   /etc/suid-debug
+94   0x00050ad0 0x08098ad0 16  17   .rodata ascii   LD_ASSUME_KERNEL
+95   0x00050ae1 0x08098ae1 13  14   .rodata ascii   MALLOC_CHECK_
+96   0x00050bd4 0x08098bd4 4   5    .rodata ascii   {fG5
+97   0x00050cc0 0x08098cc0 36  37   .rodata ascii   0123456789abcdefghijklmnopqrstuvwxyz
+98   0x00050d00 0x08098d00 36  37   .rodata ascii   0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+99   0x00050d40 0x08098d40 6   7    .rodata ascii   (null)
+100  0x00050db4 0x08098db4 14  15   .rodata ascii   outdigit_value
+101  0x00050dc3 0x08098dc3 16  17   .rodata ascii   outdigitwc_value
+102  0x00050dd4 0x08098dd4 12  13   .rodata ascii   _IO_vfprintf
+103  0x00050e44 0x08098e44 9   40   .rodata utf32le \b\b\b\b\b\b\b\b\b
+104  0x000512f7 0x080992f7 12  13   .rodata ascii   \bto_outpunct
+105  0x00051304 0x08099304 16  17   .rodata ascii   0 <= n && n <= 9
+106  0x00051315 0x08099315 21  22   .rodata ascii   ../locale/outdigits.h
+107  0x0005132b 0x0809932b 5   6    .rodata ascii   (nil)
+108  0x00051331 0x08099331 14  15   .rodata ascii   s->_flags2 & 4
+109  0x00051340 0x08099340 10  11   .rodata ascii   vfprintf.c
+110  0x0005134b 0x0809934b 26  27   .rodata ascii   ((&mbstate)->__count == 0)
+111  0x00051368 0x08099368 40  41   .rodata ascii   *** %n in writable segment detected ***\n
+112  0x00051394 0x08099394 33  34   .rodata ascii   *** invalid %N$ use detected ***\n
+113  0x000513b6 0x080993b6 14  15   .rodata ascii   outdigit_value
+114  0x000513c5 0x080993c5 16  17   .rodata ascii   outdigitwc_value
+115  0x000513e4 0x080993e4 4   20   .rodata utf32le fNAN
+116  0x00051428 0x08099428 14  15   .rodata ascii   __printf_fphex
+117  0x00051438 0x08099438 38  39   .rodata ascii   *decimal != '\0' && decimalwc != L'\0'
+118  0x00051460 0x08099460 33  34   .rodata ascii   ../sysdeps/generic/printf_fphex.c
+119  0x000516c7 0x080996c7 33  34   .rodata ascii   \b0000000000000000                
+120  0x00051700 0x08099700 32  132  .rodata utf32le 0000000000000000                
+121  0x00051784 0x08099784 5   6    .rodata ascii   fwide
+122  0x0005178a 0x0809978a 21  22   .rodata ascii   fcts.towc_nsteps == 1
+123  0x000517a0 0x080997a0 9   10   .rodata ascii   iofwide.c
+124  0x000517aa 0x080997aa 21  22   .rodata ascii   fcts.tomb_nsteps == 1
+125  0x00051933 0x08099933 19  20   .rodata ascii   \b_IO_new_file_fopen
+126  0x00051947 0x08099947 5   6    .rodata ascii   ,ccs=
+127  0x000519b3 0x080999b3 15  16   .rodata ascii   \bUnknown error 
+128  0x000519c3 0x080999c3 9   10   .rodata ascii   __mbrtowc
+129  0x000519cd 0x080999cd 9   10   .rodata ascii   mbrtowc.c
+130  0x000519d8 0x080999d8 159 160  .rodata ascii   status == __GCONV_OK || status == __GCONV_EMPTY_INPUT || status == __GCONV_ILLEGAL_INPUT || status == __GCONV_INCOMPLETE_INPUT || status == __GCONV_FULL_OUTPUT
+131  0x00051a78 0x08099a78 31  32   .rodata ascii   ((data.__statep)->__count == 0)
+132  0x00051a98 0x08099a98 9   10   .rodata ascii   __wcrtomb
+133  0x00051aa2 0x08099aa2 9   10   .rodata ascii   wcrtomb.c
+134  0x00051aac 0x08099aac 11  12   .rodata ascii   __wcsrtombs
+135  0x00051ab8 0x08099ab8 25  26   .rodata ascii   data.__outbuf[-1] == '\0'
+136  0x00051ad2 0x08099ad2 11  12   .rodata ascii   wcsrtombs.c
+137  0x00051ae0 0x08099ae0 38  39   .rodata ascii   data.__outbuf != (unsigned char *) dst
+138  0x00051b07 0x08099b07 12  13   .rodata ascii   __mbsnrtowcs
+139  0x00051b14 0x08099b14 10  11   .rodata ascii   result > 0
+140  0x00051b1f 0x08099b1f 12  13   .rodata ascii   mbsnrtowcs.c
+141  0x00051b3c 0x08099b3c 24  25   .rodata ascii   ANSI_X3.4-1968//TRANSLIT
+142  0x00051b5c 0x08099b5c 9   10   .rodata ascii   Universal
+143  0x00051b66 0x08099b66 14  15   .rodata ascii   /etc/localtime
+144  0x00051b79 0x08099b79 10  11   .rodata ascii   %[^0-9,+-]
+145  0x00051b84 0x08099b84 11  12   .rodata ascii   %hu:%hu:%hu
+146  0x00051b90 0x08099b90 14  15   .rodata ascii   M%hu.%hu.%hu%n
+147  0x00051b9f 0x08099b9f 13  14   .rodata ascii   __tzfile_read
+148  0x00051bad 0x08099bad 19  20   .rodata ascii   /usr/share/zoneinfo
+149  0x00051bc1 0x08099bc1 16  17   .rodata ascii   __tzfile_compute
+150  0x00051bd6 0x08099bd6 5   6    .rodata ascii   TZDIR
+151  0x00051bdf 0x08099bdf 14  15   .rodata ascii   num_types == 1
+152  0x00051bee 0x08099bee 8   9    .rodata ascii   tzfile.c
+153  0x00051bf7 0x08099bf7 10  11   .rodata ascii   posixrules
+154  0x00051c02 0x08099c02 8   9    .rodata ascii   %Y-%m-%d
+155  0x00051c0b 0x08099c0b 8   9    .rodata ascii   %m/%d/%y
+156  0x00051c14 0x08099c14 5   6    .rodata ascii   %H:%M
+157  0x00051c1a 0x08099c1a 8   9    .rodata ascii   %H:%M:%S
+158  0x00051c23 0x08099c23 11  12   .rodata ascii   %I:%M:%S %p
+159  0x00051e1b 0x08099e1b 16  17   .rodata ascii   \b/proc/self/maps
+160  0x00051e34 0x08099e34 5   6    .rodata ascii   /lib/
+161  0x00051e3a 0x08099e3a 9   10   .rodata ascii   /usr/lib/
+162  0x00051e44 0x08099e44 27  28   .rodata ascii   expand_dynamic_string_token
+163  0x00051e60 0x08099e60 18  19   .rodata ascii   add_name_to_object
+164  0x00051e76 0x08099e76 14  15   .rodata ascii   _dl_init_paths
+165  0x00051e85 0x08099e85 4   5    .rodata ascii   lose
+166  0x00051e8a 0x08099e8a 20  21   .rodata ascii   elf_get_dynamic_info
+167  0x00051e9f 0x08099e9f 11  12   .rodata ascii   open_verify
+168  0x00051ec4 0x08099ec4 14  15   .rodata ascii   _dl_map_object
+169  0x00051ed8 0x08099ed8 6   7    .rodata ascii   ORIGIN
+170  0x00051edf 0x08099edf 8   9    .rodata ascii   PLATFORM
+171  0x00051ef0 0x08099ef0 22  23   .rodata ascii   (l)->l_name[0] == '\0'
+172  0x00051f07 0x08099f07 9   10   .rodata ascii   dl-load.c
+173  0x00051f11 0x08099f11 27  28   .rodata ascii   cannot allocate name record
+174  0x00051f2d 0x08099f2d 20  21   .rodata ascii   lastp != ((void *)0)
+175  0x00051f44 0x08099f44 18  19   .rodata ascii   system search path
+176  0x00051f5a 0x08099f5a 24  25   .rodata ascii   pelem->dirname[0] == '/'
+177  0x00051f73 0x08099f73 24  25   .rodata ascii   l->l_next == ((void *)0)
+178  0x00051f8c 0x08099f8c 22  23   .rodata ascii   cannot handle TLS data
+179  0x00051fa3 0x08099fa3 21  22   .rodata ascii   cannot read file data
+180  0x00051fb9 0x08099fb9 28  29   .rodata ascii   cannot close file descriptor
+181  0x00051fd6 0x08099fd6 26  27   .rodata ascii   cannot map zero-fill pages
+182  0x00051ff1 0x08099ff1 14  15   .rodata ascii   dynamic-link.h
+183  0x00052000 0x0809a000 25  26   .rodata ascii   cannot stat shared object
+184  0x0005201a 0x0809a01a 24  25   .rodata ascii   cannot create searchlist
+185  0x00052033 0x0809a033 18  19   .rodata ascii   invalid ELF header
+186  0x00052046 0x0809a046 23  24   .rodata ascii   ELF file OS ABI invalid
+187  0x0005205e 0x0809a05e 28  29   .rodata ascii   ELF file ABI version invalid
+188  0x0005207b 0x0809a07b 14  15   .rodata ascii   internal error
+189  0x0005208a 0x0809a08a 14  15   .rodata ascii   file too short
+190  0x00052099 0x0809a099 17  18   .rodata ascii     trying file=%s\n
+191  0x000520ab 0x0809a0ab 13  14   .rodata ascii    search path=
+192  0x000520bd 0x0809a0bd 20  21   .rodata ascii   \t\t(%s from file %s)\n
+193  0x000520d2 0x0809a0d2 7   8    .rodata ascii   \t\t(%s)\n
+194  0x000520da 0x0809a0da 5   6    .rodata ascii   RPATH
+195  0x000520e0 0x0809a0e0 7   8    .rodata ascii   RUNPATH
+196  0x000520e8 0x0809a0e8 9   10   .rodata ascii   nsid >= 0
+197  0x000520f2 0x0809a0f2 8   9    .rodata ascii   nsid < 1
+198  0x000520fc 0x0809a0fc 35  36   .rodata ascii   cannot create cache for search path
+199  0x00052120 0x0809a120 32  33   .rodata ascii   cannot create RUNPATH/RPATH copy
+200  0x00052144 0x0809a144 31  32   .rodata ascii   cannot create search path array
+201  0x00052164 0x0809a164 38  39   .rodata ascii   cannot create shared object descriptor
+202  0x0005218c 0x0809a18c 40  41   .rodata ascii   failed to map segment from shared object
+203  0x000521b8 0x0809a1b8 36  37   .rodata ascii   object file has no loadable segments
+204  0x000521e0 0x0809a1e0 34  35   .rodata ascii   object file has no dynamic section
+205  0x00052204 0x0809a204 41  42   .rodata ascii   cannot allocate memory for program header
+206  0x00052230 0x0809a230 42  43   .rodata ascii   info[19]->d_un.d_val == sizeof (Elf32_Rel)
+207  0x0005225c 0x0809a25c 42  43   .rodata ascii   info[9]->d_un.d_val == sizeof (Elf32_Rela)
+208  0x00052288 0x0809a288 36  37   .rodata ascii   file=%s [%lu];  generating link map\n
+209  0x000522b0 0x0809a2b0 43  44   .rodata ascii   ELF load command alignment not page-aligned
+210  0x000522dc 0x0809a2dc 52  53   .rodata ascii   ELF load command address/offset not properly aligned
+211  0x00052314 0x0809a314 99  100  .rodata ascii     dynamic: 0x%0*lx  base: 0x%0*lx   size: 0x%0*Zx\n    entry: 0x%0*lx  phdr: 0x%0*lx  phnum:   %*u\n\n
+212  0x00052378 0x0809a378 56  57   .rodata ascii   cannot enable executable stack as shared object requires
+213  0x000523b4 0x0809a3b4 34  35   .rodata ascii   shared object cannot be dlopen()ed
+214  0x000523d8 0x0809a3d8 55  56   .rodata ascii   info[20]->d_un.d_val == 17 || info[20]->d_un.d_val == 7
+215  0x00052410 0x0809a410 32  33   .rodata ascii   cannot change memory protections
+216  0x00052434 0x0809a434 34  35   .rodata ascii   cannot dynamically load executable
+217  0x00052458 0x0809a458 43  44   .rodata ascii   ELF file version does not match current one
+218  0x00052484 0x0809a484 42  43   .rodata ascii   ELF file's phentsize not the expected size
+219  0x000524b0 0x0809a4b0 40  41   .rodata ascii   ELF file data encoding not little-endian
+220  0x000524dc 0x0809a4dc 49  50   .rodata ascii   ELF file version ident does not match current one
+221  0x00052510 0x0809a510 37  38   .rodata ascii   only ET_DYN and ET_EXEC can be loaded
+222  0x00052538 0x0809a538 36  37   .rodata ascii   \nfile=%s [%lu];  needed by %s [%lu]\n
+223  0x00052560 0x0809a560 33  34   .rodata ascii   find library=%s [%lu]; searching\n
+224  0x00052584 0x0809a584 30  31   .rodata ascii   cannot open shared object file
+225  0x000525a3 0x0809a5a3 21  22   .rodata ascii   _dl_load_cache_lookup
+226  0x000525b9 0x0809a5b9 16  17   .rodata ascii   /etc/ld.so.cache
+227  0x000525ca 0x0809a5ca 20  21   .rodata ascii   glibc-ld.so.cache1.1
+228  0x000525df 0x0809a5df 20  21   .rodata ascii   cache != ((void *)0)
+229  0x000525f4 0x0809a5f4 29  30   .rodata ascii   ../sysdeps/generic/dl-cache.c
+230  0x00052612 0x0809a612 11  12   .rodata ascii   ld.so-1.7.0
+231  0x0005261e 0x0809a61e 17  18   .rodata ascii    search cache=%s\n
+232  0x00052630 0x0809a630 18  19   .rodata ascii   undefined symbol: 
+233  0x00052643 0x0809a643 11  12   .rodata ascii   do_lookup_x
+234  0x0005264f 0x0809a64f 19  20   .rodata ascii   _dl_lookup_symbol_x
+235  0x00052664 0x0809a664 30  31   .rodata ascii   symbol=%s;  lookup in file=%s\n
+236  0x00052684 0x0809a684 79  80   .rodata ascii   version->filename == ((void *)0) || ! _dl_name_match_p (version->filename, map)
+237  0x000526d4 0x0809a6d4 73  74   .rodata ascii   version == ((void *)0) || flags == 0 || flags == DL_LOOKUP_ADD_DEPENDENCY
+238  0x00052720 0x0809a720 37  38   .rodata ascii   binding file %s to %s: %s symbol `%s'
+239  0x00052748 0x0809a748 61  62   .rodata ascii   \nfile=%s [%lu];  needed by %s [%lu] (relocation dependency)\n\n
+240  0x00052786 0x0809a786 11  12   .rodata ascii   do-lookup.h
+241  0x00052792 0x0809a792 11  12   .rodata ascii   dl-lookup.c
+242  0x0005279e 0x0809a79e 7   8    .rodata ascii   symbol 
+243  0x000527a6 0x0809a7a6 10  11   .rodata ascii   , version 
+244  0x000527b1 0x0809a7b1 21  22   .rodata ascii    not defined in file 
+245  0x000527c7 0x0809a7c7 25  26   .rodata ascii    with link time reference
+246  0x000527e1 0x0809a7e1 21  22   .rodata ascii    (no version symbols)
+247  0x000527f7 0x0809a7f7 14  15   .rodata ascii   <main program>
+248  0x00052806 0x0809a806 16  17   .rodata ascii   relocation error
+249  0x00052817 0x0809a817 19  20   .rodata ascii   symbol lookup error
+250  0x0005282b 0x0809a82b 21  22   .rodata ascii   i < (*scope)->r_nlist
+251  0x00052841 0x0809a841 9   10   .rodata ascii   protected
+252  0x0005284b 0x0809a84b 6   7    .rodata ascii   normal
+253  0x00052852 0x0809a852 6   7    .rodata ascii    [%s]\n
+254  0x00052859 0x0809a859 22  23   .rodata ascii   version != ((void *)0)
+255  0x00052870 0x0809a870 13  14   .rodata ascii   out of memory
+256  0x0005287e 0x0809a87e 21  22   .rodata ascii   DYNAMIC LINKER BUG!!!
+257  0x00052897 0x0809a897 22  23   .rodata ascii   <program name unknown>
+258  0x000528ae 0x0809a8ae 19  20   .rodata ascii   %s: %s: %s%s%s%s%s\n
+259  0x000528c2 0x0809a8c2 9   10   .rodata ascii   continued
+260  0x000528cc 0x0809a8cc 5   6    .rodata ascii   fatal
+261  0x000528d2 0x0809a8d2 23  24   .rodata ascii   %s: error: %s: %s (%s)\n
+262  0x000528ec 0x0809a8ec 36  37   .rodata ascii   error while loading shared libraries
+263  0x00052911 0x0809a911 18  19   .rodata ascii   _dl_debug_vdprintf
+264  0x00052924 0x0809a924 9   10   .rodata ascii   niov < 64
+265  0x0005292e 0x0809a92e 9   10   .rodata ascii   dl-misc.c
+266  0x00052938 0x0809a938 28  29   .rodata ascii   ! "invalid format specifier"
+267  0x00052958 0x0809a958 31  32   .rodata ascii   pid >= 0 && sizeof (pid_t) <= 4
+268  0x00052978 0x0809a978 14  15   .rodata ascii   _dl_get_origin
+269  0x00052987 0x0809a987 14  15   .rodata ascii   /proc/self/exe
+270  0x00052996 0x0809a996 17  18   .rodata ascii   linkval[0] == '/'
+271  0x000529a8 0x0809a9a8 38  39   .rodata ascii   ../sysdeps/unix/sysv/linux/dl-origin.c
+272  0x000529cf 0x0809a9cf 23  24   .rodata ascii   UCS-4// ISO-10646/UCS4/
+273  0x000529e7 0x0809a9e7 25  26   .rodata ascii   UCS-4BE// ISO-10646/UCS4/
+274  0x00052a01 0x0809aa01 24  25   .rodata ascii   CSUCS4// ISO-10646/UCS4/
+275  0x00052a1a 0x0809aa1a 27  28   .rodata ascii   ISO-10646// ISO-10646/UCS4/
+276  0x00052a36 0x0809aa36 29  30   .rodata ascii   OSF00010104// ISO-10646/UCS4/
+277  0x00052a54 0x0809aa54 29  30   .rodata ascii   OSF00010105// ISO-10646/UCS4/
+278  0x00052a72 0x0809aa72 29  30   .rodata ascii   OSF00010106// ISO-10646/UCS4/
+279  0x00052a90 0x0809aa90 18  19   .rodata ascii   WCHAR_T// INTERNAL
+280  0x00052aa3 0x0809aaa3 22  23   .rodata ascii   UTF8// ISO-10646/UTF8/
+281  0x00052aba 0x0809aaba 23  24   .rodata ascii   UTF-8// ISO-10646/UTF8/
+282  0x00052ad2 0x0809aad2 28  29   .rodata ascii   ISO-IR-193// ISO-10646/UTF8/
+283  0x00052aef 0x0809aaef 29  30   .rodata ascii   OSF05010001// ISO-10646/UTF8/
+284  0x00052b0d 0x0809ab0d 22  23   .rodata ascii   UCS2// ISO-10646/UCS2/
+285  0x00052b24 0x0809ab24 23  24   .rodata ascii   UCS-2// ISO-10646/UCS2/
+286  0x00052b3c 0x0809ab3c 29  30   .rodata ascii   OSF00010100// ISO-10646/UCS2/
+287  0x00052b5a 0x0809ab5a 29  30   .rodata ascii   OSF00010101// ISO-10646/UCS2/
+288  0x00052b78 0x0809ab78 29  30   .rodata ascii   OSF00010102// ISO-10646/UCS2/
+289  0x00052b96 0x0809ab96 28  29   .rodata ascii   ANSI_X3.4// ANSI_X3.4-1968//
+290  0x00052bb3 0x0809abb3 27  28   .rodata ascii   ISO-IR-6// ANSI_X3.4-1968//
+291  0x00052bcf 0x0809abcf 28  29   .rodata ascii   ISO646-US// ANSI_X3.4-1968//
+292  0x00052bec 0x0809abec 27  28   .rodata ascii   US-ASCII// ANSI_X3.4-1968//
+293  0x00052c08 0x0809ac08 25  26   .rodata ascii   IBM367// ANSI_X3.4-1968//
+294  0x00052c22 0x0809ac22 24  25   .rodata ascii   CP367// ANSI_X3.4-1968//
+295  0x00052c3b 0x0809ac3b 26  27   .rodata ascii   CSASCII// ANSI_X3.4-1968//
+296  0x00052c56 0x0809ac56 25  26   .rodata ascii   UCS-2LE// ISO-10646/UCS2/
+297  0x00052c70 0x0809ac70 22  23   .rodata ascii   UCS-2BE// UNICODEBIG//
+298  0x00052c87 0x0809ac87 15  16   .rodata ascii   =INTERNAL->ucs4
+299  0x00052c97 0x0809ac97 15  16   .rodata ascii   =ucs4->INTERNAL
+300  0x00052ca7 0x0809aca7 9   10   .rodata ascii   UCS-4LE//
+301  0x00052cb1 0x0809acb1 17  18   .rodata ascii   =INTERNAL->ucs4le
+302  0x00052cc3 0x0809acc3 17  18   .rodata ascii   =ucs4le->INTERNAL
+303  0x00052cd5 0x0809acd5 15  16   .rodata ascii   =INTERNAL->utf8
+304  0x00052ce5 0x0809ace5 15  16   .rodata ascii   =utf8->INTERNAL
+305  0x00052cf5 0x0809acf5 15  16   .rodata ascii   =ucs2->INTERNAL
+306  0x00052d05 0x0809ad05 15  16   .rodata ascii   =INTERNAL->ucs2
+307  0x00052d15 0x0809ad15 16  17   .rodata ascii   =ascii->INTERNAL
+308  0x00052d26 0x0809ad26 16  17   .rodata ascii   =INTERNAL->ascii
+309  0x00052d37 0x0809ad37 22  23   .rodata ascii   =ucs2reverse->INTERNAL
+310  0x00052d4e 0x0809ad4e 22  23   .rodata ascii   =INTERNAL->ucs2reverse
+311  0x00052d65 0x0809ad65 18  19   .rodata ascii   cwd != ((void *)0)
+312  0x00052d78 0x0809ad78 12  13   .rodata ascii   gconv_conf.c
+313  0x00052d85 0x0809ad85 19  20   .rodata ascii   elem != ((void *)0)
+314  0x00052d99 0x0809ad99 6   7    .rodata ascii   module
+315  0x00052da0 0x0809ada0 5   6    .rodata ascii   alias
+316  0x00052da8 0x0809ada8 30  31   .rodata ascii   10646-1:1993// ISO-10646/UCS4/
+317  0x00052dc8 0x0809adc8 34  35   .rodata ascii   10646-1:1993/UCS4/ ISO-10646/UCS4/
+318  0x00052dec 0x0809adec 32  33   .rodata ascii   ISO-10646/UTF-8/ ISO-10646/UTF8/
+319  0x00052e10 0x0809ae10 33  34   .rodata ascii   ANSI_X3.4-1986// ANSI_X3.4-1968//
+320  0x00052e34 0x0809ae34 35  36   .rodata ascii   ISO_646.IRV:1991// ANSI_X3.4-1968//
+321  0x00052e58 0x0809ae58 30  31   .rodata ascii   OSF00010020// ANSI_X3.4-1968//
+322  0x00052e78 0x0809ae78 31  32   .rodata ascii   UNICODELITTLE// ISO-10646/UCS2/
+323  0x00052e98 0x0809ae98 13  14   .rodata ascii   gconv-modules
+324  0x00052eaa 0x0809aeaa 14  15   .rodata ascii   /usr/lib/gconv
+325  0x00052eb9 0x0809aeb9 16  17   .rodata ascii   __gconv_get_path
+326  0x00052eca 0x0809aeca 15  16   .rodata ascii   gconv_builtin.c
+327  0x00052eda 0x0809aeda 25  26   .rodata ascii   __gconv_get_builtin_trans
+328  0x00052ef4 0x0809aef4 36  37   .rodata ascii   cnt < sizeof (map) / sizeof (map[0])
+329  0x00052f20 0x0809af20 31  32   .rodata ascii   __gconv_transform_internal_ucs4
+330  0x00052f40 0x0809af40 31  32   .rodata ascii   __gconv_transform_ucs4_internal
+331  0x00052f60 0x0809af60 33  34   .rodata ascii   __gconv_transform_internal_ucs4le
+332  0x00052fa0 0x0809afa0 33  34   .rodata ascii   __gconv_transform_ucs4le_internal
+333  0x00052fc2 0x0809afc2 20  21   .rodata ascii   ucs4le_internal_loop
+334  0x00052fe0 0x0809afe0 32  33   .rodata ascii   __gconv_transform_ascii_internal
+335  0x00053020 0x0809b020 32  33   .rodata ascii   __gconv_transform_internal_ascii
+336  0x00053041 0x0809b041 26  27   .rodata ascii   internal_ascii_loop_single
+337  0x00053060 0x0809b060 31  32   .rodata ascii   __gconv_transform_internal_utf8
+338  0x00053080 0x0809b080 25  26   .rodata ascii   internal_utf8_loop_single
+339  0x000530a0 0x0809b0a0 31  32   .rodata ascii   __gconv_transform_utf8_internal
+340  0x000530c0 0x0809b0c0 25  26   .rodata ascii   utf8_internal_loop_single
+341  0x000530e0 0x0809b0e0 31  32   .rodata ascii   __gconv_transform_ucs2_internal
+342  0x00053100 0x0809b100 25  26   .rodata ascii   ucs2_internal_loop_single
+343  0x00053120 0x0809b120 31  32   .rodata ascii   __gconv_transform_internal_ucs2
+344  0x00053140 0x0809b140 25  26   .rodata ascii   internal_ucs2_loop_single
+345  0x00053160 0x0809b160 38  39   .rodata ascii   __gconv_transform_ucs2reverse_internal
+346  0x000531a0 0x0809b1a0 32  33   .rodata ascii   ucs2reverse_internal_loop_single
+347  0x000531e0 0x0809b1e0 38  39   .rodata ascii   __gconv_transform_internal_ucs2reverse
+348  0x00053220 0x0809b220 32  33   .rodata ascii   internal_ucs2reverse_loop_single
+349  0x00053241 0x0809b241 19  20   .rodata ascii   ../iconv/skeleton.c
+350  0x00053255 0x0809b255 26  27   .rodata ascii   outbufstart == ((void *)0)
+351  0x00053270 0x0809b270 19  20   .rodata ascii   inend - *inptrp < 4
+352  0x00053284 0x0809b284 21  22   .rodata ascii   *outptrp + 4 > outend
+353  0x0005329a 0x0809b29a 14  15   .rodata ascii   gconv_simple.c
+354  0x000532a9 0x0809b2a9 15  16   .rodata ascii   ../iconv/loop.c
+355  0x000532b9 0x0809b2b9 20  21   .rodata ascii   inend != &bytebuf[4]
+356  0x000532ce 0x0809b2ce 16  17   .rodata ascii   outbuf == outerr
+357  0x000532df 0x0809b2df 20  21   .rodata ascii   inend != &bytebuf[6]
+358  0x000532f4 0x0809b2f4 20  21   .rodata ascii   inend != &bytebuf[2]
+359  0x0005330c 0x0809b30c 38  39   .rodata ascii   inptr - bytebuf > (state->__count & 7)
+360  0x00053334 0x0809b334 30  31   .rodata ascii   nstatus == __GCONV_FULL_OUTPUT
+361  0x00053353 0x0809b353 19  20   .rodata ascii   gconv_trans_context
+362  0x00053367 0x0809b367 11  12   .rodata ascii   gconv_trans
+363  0x00053373 0x0809b373 16  17   .rodata ascii   gconv_trans_init
+364  0x00053384 0x0809b384 15  16   .rodata ascii   gconv_trans_end
+365  0x00053398 0x0809b398 26  27   .rodata ascii   trans->name != ((void *)0)
+366  0x000533b3 0x0809b3b3 13  14   .rodata ascii   gconv_trans.c
+367  0x000533c1 0x0809b3c1 21  22   .rodata ascii   __gconv_translit_find
+368  0x000533d7 0x0809b3d7 10  11   .rodata ascii   GCONV_PATH
+369  0x000533e4 0x0809b3e4 34  35   .rodata ascii   /usr/lib/gconv/gconv-modules.cache
+370  0x00053407 0x0809b407 16  17   .rodata ascii   do_release_shlib
+371  0x00053418 0x0809b418 18  19   .rodata ascii   __gconv_find_shlib
+372  0x0005342b 0x0809b42b 16  17   .rodata ascii   obj->counter > 0
+373  0x0005343c 0x0809b43c 10  11   .rodata ascii   gconv_dl.c
+374  0x00053447 0x0809b447 5   6    .rodata ascii   gconv
+375  0x0005344d 0x0809b44d 10  11   .rodata ascii   gconv_init
+376  0x00053458 0x0809b458 9   10   .rodata ascii   gconv_end
+377  0x00053462 0x0809b462 28  29   .rodata ascii   found->handle == ((void *)0)
+378  0x00053480 0x0809b480 6   28   .rodata utf32le \b\n\a\n\v\v
+379  0x0005349c 0x0809b49c 4   20   .rodata utf32le \b\a\n\f
+380  0x000534c0 0x0809b4c0 4   6    .rodata utf8    ڿ\t\b4 blocks=Arabic,Basic Latin
+381  0x00053534 0x0809b534 10  11   .rodata ascii   LC_NUMERIC
+382  0x0005353f 0x0809b53f 7   8    .rodata ascii   LC_TIME
+383  0x00053547 0x0809b547 10  11   .rodata ascii   LC_COLLATE
+384  0x00053552 0x0809b552 11  12   .rodata ascii   LC_MONETARY
+385  0x0005355e 0x0809b55e 11  12   .rodata ascii   LC_MESSAGES
+386  0x0005356a 0x0809b56a 6   7    .rodata ascii   LC_ALL
+387  0x00053571 0x0809b571 8   9    .rodata ascii   LC_PAPER
+388  0x0005357a 0x0809b57a 7   8    .rodata ascii   LC_NAME
+389  0x00053582 0x0809b582 10  11   .rodata ascii   LC_ADDRESS
+390  0x0005358d 0x0809b58d 12  13   .rodata ascii   LC_TELEPHONE
+391  0x0005359a 0x0809b59a 14  15   .rodata ascii   LC_MEASUREMENT
+392  0x000535a9 0x0809b5a9 17  18   .rodata ascii   LC_IDENTIFICATION
+393  0x000535bb 0x0809b5bb 7   8    .rodata ascii   LOCPATH
+394  0x000535e0 0x0809b5e0 15  16   .rodata ascii   /usr/lib/locale
+395  0x000535f0 0x0809b5f0 15  16   .rodata ascii   _nl_find_locale
+396  0x00053634 0x0809b634 4   5    .rodata ascii   LANG
+397  0x00053639 0x0809b639 29  30   .rodata ascii   locale_codeset != ((void *)0)
+398  0x00053657 0x0809b657 12  13   .rodata ascii   findlocale.c
+399  0x000536c8 0x0809b6c8 4   20   .rodata utf32le \b\b\b\b
+400  0x000536e4 0x0809b6e4 4   20   .rodata utf32le \b\b\b\b
+401  0x000536f8 0x0809b6f8 4   20   .rodata utf32le \b\b\b\b
+402  0x0005379c 0x0809b79c 10  44   .rodata utf32le \b\b\b\b\b\b\b\b\b\b
+403  0x00053818 0x0809b818 4   20   .rodata utf32le \b\b\b\b
+404  0x00053a90 0x0809ba90 9   40   .rodata utf32le \b\b\b\b\b\b\n\b\b
+405  0x00053bc0 0x0809bbc0 22  23   .rodata ascii   _nl_intern_locale_data
+406  0x00053be9 0x0809bbe9 7   8    .rodata ascii   1\a\bP1\a\b
+407  0x00053bf1 0x0809bbf1 7   8    .rodata ascii   /\a\b 1\a\b
+408  0x00053c01 0x0809bc01 107 108  .rodata ascii   0\a\b`0\a\b10\a\bcnt < (sizeof (_nl_value_type_LC_IDENTIFICATION) / sizeof (_nl_value_type_LC_IDENTIFICATION[0]))
+409  0x00053c70 0x0809bc70 90  91   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_MEASUREMENT) / sizeof (_nl_value_type_LC_MEASUREMENT[0]))
+410  0x00053ccc 0x0809bccc 86  87   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_TELEPHONE) / sizeof (_nl_value_type_LC_TELEPHONE[0]))
+411  0x00053d24 0x0809bd24 82  83   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_ADDRESS) / sizeof (_nl_value_type_LC_ADDRESS[0]))
+412  0x00053d78 0x0809bd78 76  77   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_NAME) / sizeof (_nl_value_type_LC_NAME[0]))
+413  0x00053dc8 0x0809bdc8 78  79   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_PAPER) / sizeof (_nl_value_type_LC_PAPER[0]))
+414  0x00053e18 0x0809be18 84  85   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_MESSAGES) / sizeof (_nl_value_type_LC_MESSAGES[0]))
+415  0x00053e70 0x0809be70 84  85   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_MONETARY) / sizeof (_nl_value_type_LC_MONETARY[0]))
+416  0x00053ec8 0x0809bec8 82  83   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_COLLATE) / sizeof (_nl_value_type_LC_COLLATE[0]))
+417  0x00053f1c 0x0809bf1c 76  77   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))
+418  0x00053f6c 0x0809bf6c 82  83   .rodata ascii   cnt < (sizeof (_nl_value_type_LC_NUMERIC) / sizeof (_nl_value_type_LC_NUMERIC[0]))
+419  0x00053fbf 0x0809bfbf 12  13   .rodata ascii   loadlocale.c
+420  0x00053fcc 0x0809bfcc 22  23   .rodata ascii   category == __LC_CTYPE
+421  0x00053fe4 0x0809bfe4 30  31   .rodata ascii   /usr/lib/locale/locale-archive
+422  0x00054003 0x0809c003 28  29   .rodata ascii   _nl_load_locale_from_archive
+423  0x00054020 0x0809c020 22  23   .rodata ascii   _nl_archive_subfreeres
+424  0x00054037 0x0809c037 24  25   .rodata ascii   ranges[cnt].from >= from
+425  0x00054050 0x0809c050 13  14   .rodata ascii   loadarchive.c
+426  0x0005405e 0x0809c05e 26  27   .rodata ascii   ((((ps) - 1) & (ps)) == 0)
+427  0x00054079 0x0809c079 20  21   .rodata ascii   last->next == mapped
+428  0x0005408e 0x0809c08e 22  23   .rodata ascii   archmapped == &headmap
+429  0x000540c0 0x0809c0c0 5   6    .rodata ascii   upper
+430  0x000540c6 0x0809c0c6 5   6    .rodata ascii   lower
+431  0x000540cc 0x0809c0cc 5   6    .rodata ascii   alpha
+432  0x000540d2 0x0809c0d2 5   6    .rodata ascii   digit
+433  0x000540d8 0x0809c0d8 6   7    .rodata ascii   xdigit
+434  0x000540df 0x0809c0df 5   6    .rodata ascii   space
+435  0x000540e5 0x0809c0e5 5   6    .rodata ascii   print
+436  0x000540eb 0x0809c0eb 5   6    .rodata ascii   graph
+437  0x000540f1 0x0809c0f1 5   6    .rodata ascii   blank
+438  0x000540f7 0x0809c0f7 5   6    .rodata ascii   cntrl
+439  0x000540fd 0x0809c0fd 5   6    .rodata ascii   punct
+440  0x00054103 0x0809c103 5   6    .rodata ascii   alnum
+441  0x0005410a 0x0809c10a 7   8    .rodata ascii   toupper
+442  0x00054112 0x0809c112 7   8    .rodata ascii   tolower
+443  0x00054172 0x0809c172 6   7    .rodata ascii   \t\b b\n\b
+444  0x00054185 0x0809c185 4   5    .rodata ascii   j\n\bG
+445  0x0005419a 0x0809c19a 5   7    .rodata utf8    \t\bº\n\b blocks=Basic Latin,Latin-1 Supplement
+446  0x000541ad 0x0809c1ad 4   5    .rodata ascii   {\n\b*
+447  0x000541e5 0x0809c1e5 4   5    .rodata ascii   {\n\bz
+448  0x000541ee 0x0809c1ee 5   7    .rodata utf8    \t\bº\n\b blocks=Basic Latin,Latin-1 Supplement
+449  0x00054201 0x0809c201 4   5    .rodata ascii   {\n\b*
+450  0x00054210 0x0809c210 11  48   .rodata utf32le 0123456789Ո blocks=Basic Latin,Armenian
+451  0x00054260 0x0809c260 4   5    .rodata ascii   @h\n\b
+452  0x00054269 0x0809c269 7   8    .rodata ascii   g\n\b g\n\b
+453  0x00054271 0x0809c271 7   8    .rodata ascii   f\n\b`f\n\b
+454  0x0005427d 0x0809c27d 7   8    .rodata ascii   e\n\b@e\n\b
+455  0x00054289 0x0809c289 11  12   .rodata ascii   d\n\b d\n\b@c\n\b
+456  0x00054318 0x0809c318 5   24   .rodata utf32le  1/4 
+457  0x00054334 0x0809c334 5   24   .rodata utf32le  1/2 
+458  0x00054350 0x0809c350 5   24   .rodata utf32le  3/4 
+459  0x00054880 0x0809c880 4   20   .rodata utf32le (TM)
+460  0x0005496c 0x0809c96c 5   24   .rodata utf32le  1/3 
+461  0x00054988 0x0809c988 5   24   .rodata utf32le  2/3 
+462  0x000549a4 0x0809c9a4 5   24   .rodata utf32le  1/5 
+463  0x000549c0 0x0809c9c0 5   24   .rodata utf32le  2/5 
+464  0x000549dc 0x0809c9dc 5   24   .rodata utf32le  3/5 
+465  0x000549f8 0x0809c9f8 5   24   .rodata utf32le  4/5 
+466  0x00054a14 0x0809ca14 5   24   .rodata utf32le  1/6 
+467  0x00054a30 0x0809ca30 5   24   .rodata utf32le  5/6 
+468  0x00054a4c 0x0809ca4c 5   24   .rodata utf32le  1/8 
+469  0x00054a68 0x0809ca68 5   24   .rodata utf32le  3/8 
+470  0x00054a84 0x0809ca84 5   24   .rodata utf32le  5/8 
+471  0x00054aa0 0x0809caa0 5   24   .rodata utf32le  7/8 
+472  0x00054b40 0x0809cb40 4   20   .rodata utf32le VIII
+473  0x00054c38 0x0809cc38 4   20   .rodata utf32le viii
+474  0x00055124 0x0809d124 4   20   .rodata utf32le (10)
+475  0x0005513c 0x0809d13c 4   20   .rodata utf32le (11)
+476  0x00055154 0x0809d154 4   20   .rodata utf32le (12)
+477  0x0005516c 0x0809d16c 4   20   .rodata utf32le (13)
+478  0x00055184 0x0809d184 4   20   .rodata utf32le (14)
+479  0x0005519c 0x0809d19c 4   20   .rodata utf32le (15)
+480  0x000551b4 0x0809d1b4 4   20   .rodata utf32le (16)
+481  0x000551cc 0x0809d1cc 4   20   .rodata utf32le (17)
+482  0x000551e4 0x0809d1e4 4   20   .rodata utf32le (18)
+483  0x000551fc 0x0809d1fc 4   20   .rodata utf32le (19)
+484  0x00055214 0x0809d214 4   20   .rodata utf32le (20)
+485  0x000552e0 0x0809d2e0 4   20   .rodata utf32le (10)
+486  0x000552f8 0x0809d2f8 4   20   .rodata utf32le (11)
+487  0x00055310 0x0809d310 4   20   .rodata utf32le (12)
+488  0x00055328 0x0809d328 4   20   .rodata utf32le (13)
+489  0x00055340 0x0809d340 4   20   .rodata utf32le (14)
+490  0x00055358 0x0809d358 4   20   .rodata utf32le (15)
+491  0x00055370 0x0809d370 4   20   .rodata utf32le (16)
+492  0x00055388 0x0809d388 4   20   .rodata utf32le (17)
+493  0x000553a0 0x0809d3a0 4   20   .rodata utf32le (18)
+494  0x000553b8 0x0809d3b8 4   20   .rodata utf32le (19)
+495  0x000553d0 0x0809d3d0 4   20   .rodata utf32le (20)
+496  0x00055c60 0x0809dc60 4   20   .rodata utf32le (21)
+497  0x00055c78 0x0809dc78 4   20   .rodata utf32le (22)
+498  0x00055c90 0x0809dc90 4   20   .rodata utf32le (23)
+499  0x00055ca8 0x0809dca8 4   20   .rodata utf32le (24)
+500  0x00055cc0 0x0809dcc0 4   20   .rodata utf32le (25)
+501  0x00055cd8 0x0809dcd8 4   20   .rodata utf32le (26)
+502  0x00055cf0 0x0809dcf0 4   20   .rodata utf32le (27)
+503  0x00055d08 0x0809dd08 4   20   .rodata utf32le (28)
+504  0x00055d20 0x0809dd20 4   20   .rodata utf32le (29)
+505  0x00055d38 0x0809dd38 4   20   .rodata utf32le (30)
+506  0x00055d50 0x0809dd50 4   20   .rodata utf32le (31)
+507  0x00055d68 0x0809dd68 4   20   .rodata utf32le (32)
+508  0x00055d80 0x0809dd80 4   20   .rodata utf32le (33)
+509  0x00055d98 0x0809dd98 4   20   .rodata utf32le (34)
+510  0x00055db0 0x0809ddb0 4   20   .rodata utf32le (35)
+511  0x00055dc8 0x0809ddc8 4   20   .rodata utf32le (36)
+512  0x00055de0 0x0809dde0 4   20   .rodata utf32le (37)
+513  0x00055df8 0x0809ddf8 4   20   .rodata utf32le (38)
+514  0x00055e10 0x0809de10 4   20   .rodata utf32le (39)
+515  0x00055e28 0x0809de28 4   20   .rodata utf32le (40)
+516  0x00055e40 0x0809de40 4   20   .rodata utf32le (41)
+517  0x00055e58 0x0809de58 4   20   .rodata utf32le (42)
+518  0x00055e70 0x0809de70 4   20   .rodata utf32le (43)
+519  0x00055e88 0x0809de88 4   20   .rodata utf32le (44)
+520  0x00055ea0 0x0809dea0 4   20   .rodata utf32le (45)
+521  0x00055eb8 0x0809deb8 4   20   .rodata utf32le (46)
+522  0x00055ed0 0x0809ded0 4   20   .rodata utf32le (47)
+523  0x00055ee8 0x0809dee8 4   20   .rodata utf32le (48)
+524  0x00055f00 0x0809df00 4   20   .rodata utf32le (49)
+525  0x00055f18 0x0809df18 4   20   .rodata utf32le (50)
+526  0x0005602c 0x0809e02c 4   20   .rodata utf32le kcal
+527  0x000561a4 0x0809e1a4 4   20   .rodata utf32le mm^2
+528  0x000561bc 0x0809e1bc 4   20   .rodata utf32le cm^2
+529  0x000561e8 0x0809e1e8 4   20   .rodata utf32le km^2
+530  0x00056200 0x0809e200 4   20   .rodata utf32le mm^3
+531  0x00056218 0x0809e218 4   20   .rodata utf32le cm^3
+532  0x00056244 0x0809e244 4   20   .rodata utf32le km^3
+533  0x00056270 0x0809e270 5   24   .rodata utf32le m/s^2
+534  0x000562ec 0x0809e2ec 5   24   .rodata utf32le rad/s
+535  0x00056308 0x0809e308 7   32   .rodata utf32le rad/s^2
+536  0x0005642c 0x0809e42c 4   20   .rodata utf32le a.m.
+537  0x00056474 0x0809e474 4   20   .rodata utf32le C/kg
+538  0x000565ac 0x0809e5ac 4   20   .rodata utf32le p.m.
+539  0x00058dc4 0x080a0dc4 22  92   .rodata utf32le %,37:>BFJNRVZ^aeimquy}
+540  0x0005cd40 0x080a4d40 48  196  .rodata utf32le  "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
+541  0x0005e240 0x080a6240 6   28   .rodata utf32le HHHHHI
+542  0x0005e2ac 0x080a62ac 26  108  .rodata utf32le                           
+543  0x0005ea9c 0x080a6a9c 7   32   .rodata utf32le \a\b\t\n\v\f\r
+544  0x0005eb00 0x080a6b00 95  384  .rodata utf32le  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+545  0x0005f09c 0x080a709c 7   32   .rodata utf32le \a\b\t\n\v\f\r
+546  0x0005f100 0x080a7100 95  384  .rodata utf32le  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+547  0x0005fbdc 0x080a7bdc 5   6    .rodata ascii   ^[yY]
+548  0x0005fbe2 0x080a7be2 5   6    .rodata ascii   ^[nN]
+549  0x0005fc29 0x080a7c29 12  13   .rodata ascii   {\n\bS~\n\bS~\n\be
+550  0x0005fc64 0x080a7c64 28  29   .rodata ascii   S~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\b
+551  0x0005fc9d 0x080a7c9d 7   8    .rodata ascii   }\n\b8|\n\b
+552  0x0005fcb9 0x080a7cb9 11  12   .rodata ascii   }\n\bS~\n\bS~\n\b
+553  0x0005fcf9 0x080a7cf9 5   6    .rodata ascii   }\n\bu'
+554  0x0005fd45 0x080a7d45 12  13   .rodata ascii   }\n\bS~\n\bS~\n\b.
+555  0x0005fd5a 0x080a7d5a 5   6    .rodata ascii   \n\bSun
+556  0x0005fd78 0x080a7d78 6   7    .rodata ascii   Sunday
+557  0x0005fd7f 0x080a7d7f 6   7    .rodata ascii   Monday
+558  0x0005fd86 0x080a7d86 7   8    .rodata ascii   Tuesday
+559  0x0005fd8e 0x080a7d8e 9   10   .rodata ascii   Wednesday
+560  0x0005fd98 0x080a7d98 8   9    .rodata ascii   Thursday
+561  0x0005fda1 0x080a7da1 6   7    .rodata ascii   Friday
+562  0x0005fda8 0x080a7da8 8   9    .rodata ascii   Saturday
+563  0x0005fde1 0x080a7de1 7   8    .rodata ascii   January
+564  0x0005fde9 0x080a7de9 8   9    .rodata ascii   February
+565  0x0005fdf2 0x080a7df2 5   6    .rodata ascii   March
+566  0x0005fdf8 0x080a7df8 5   6    .rodata ascii   April
+567  0x0005fdfe 0x080a7dfe 4   5    .rodata ascii   June
+568  0x0005fe03 0x080a7e03 4   5    .rodata ascii   July
+569  0x0005fe08 0x080a7e08 6   7    .rodata ascii   August
+570  0x0005fe0f 0x080a7e0f 9   10   .rodata ascii   September
+571  0x0005fe19 0x080a7e19 7   8    .rodata ascii   October
+572  0x0005fe21 0x080a7e21 8   9    .rodata ascii   November
+573  0x0005fe2a 0x080a7e2a 8   9    .rodata ascii   December
+574  0x0005fe39 0x080a7e39 20  21   .rodata ascii   %a %b %e %H:%M:%S %Y
+575  0x0005fe54 0x080a7e54 23  24   .rodata ascii   %a %b %e %H:%M:%S %Z %Y
+576  0x0005fedc 0x080a7edc 6   28   .rodata utf32le Sunday
+577  0x0005fef8 0x080a7ef8 6   28   .rodata utf32le Monday
+578  0x0005ff14 0x080a7f14 7   32   .rodata utf32le Tuesday
+579  0x0005ff34 0x080a7f34 9   40   .rodata utf32le Wednesday
+580  0x0005ff5c 0x080a7f5c 8   36   .rodata utf32le Thursday
+581  0x0005ff80 0x080a7f80 6   28   .rodata utf32le Friday
+582  0x0005ff9c 0x080a7f9c 8   36   .rodata utf32le Saturday
+583  0x00060080 0x080a8080 7   32   .rodata utf32le January
+584  0x000600a0 0x080a80a0 8   36   .rodata utf32le February
+585  0x000600c4 0x080a80c4 5   24   .rodata utf32le March
+586  0x000600dc 0x080a80dc 5   24   .rodata utf32le April
+587  0x000600f4 0x080a80f4 4   20   .rodata utf32le June
+588  0x00060108 0x080a8108 4   20   .rodata utf32le July
+589  0x0006011c 0x080a811c 6   28   .rodata utf32le August
+590  0x00060138 0x080a8138 9   40   .rodata utf32le September
+591  0x00060160 0x080a8160 7   32   .rodata utf32le October
+592  0x00060180 0x080a8180 8   36   .rodata utf32le November
+593  0x000601a4 0x080a81a4 8   36   .rodata utf32le December
+594  0x000601e0 0x080a81e0 20  84   .rodata utf32le %a %b %e %H:%M:%S %Y
+595  0x00060234 0x080a8234 8   36   .rodata utf32le %m/%d/%y
+596  0x00060258 0x080a8258 8   36   .rodata utf32le %H:%M:%S
+597  0x0006027c 0x080a827c 11  48   .rodata utf32le %I:%M:%S %p
+598  0x000602ac 0x080a82ac 23  96   .rodata utf32le %a %b %e %H:%M:%S %Z %Y
+599  0x00060344 0x080a8344 32  33   .rodata ascii   \}\n\b`}\n\bd}\n\bh}\n\bl}\n\bp}\n\bt}\n\bx}\n\b
+600  0x000603c5 0x080a83c5 7   8    .rodata ascii   ~\n\b\b~\n\b
+601  0x000603d1 0x080a83d1 24  25   .rodata ascii   ~\n\b!~\n\b*~\n\b3~\n\b6~\n\b9~\n\b\v
+602  0x000603f2 0x080a83f2 26  27   .rodata ascii   \t\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\b
+603  0x00060410 0x080a8410 12  13   .rodata ascii   S~\n\bl~\n\b|~\n\b
+604  0x00060482 0x080a8482 8   11   .rodata utf8    \n\bĀ\n\b܀\n\b blocks=Basic Latin,Latin Extended-A,Syriac
+605  0x000604aa 0x080a84aa 8   11   .rodata utf8    \n\bȁ\n\bԁ\n\b blocks=Basic Latin,Latin Extended-B,Cyrillic Supplement
+606  0x000604d6 0x080a84d6 7   8    .rodata ascii   \n\bN~\n\b:
+607  0x000604e0 0x080a84e0 24  25   .rodata ascii   P~\n\bN~\n\bR~\n\bR~\n\bS~\n\bT~\n\b
+608  0x0006052e 0x080a852e 16  17   .rodata ascii   \n\b%p%t%g%t%m%t%f
+609  0x00060566 0x080a8566 23  24   .rodata ascii   \n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\be
+610  0x0006057e 0x080a857e 45  46   .rodata ascii   \n\b%a%N%f%N%d%N%b%N%s %h %e %r%N%C-%z %T%N%c%N
+611  0x000605e6 0x080a85e6 47  48   .rodata ascii   \n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\bS~\n\be
+612  0x00060616 0x080a8616 11  12   .rodata ascii   \n\b+%c %a %l
+613  0x00060666 0x080a8666 15  16   .rodata ascii   \n\bS~\n\bS~\n\bS~\n\be
+614  0x000606a4 0x080a86a4 5   6    .rodata ascii   R~\n\be
+615  0x000606aa 0x080a86aa 29  30   .rodata ascii   \n\bISO/IEC 14652 i18n FDCC-set
+616  0x000606c8 0x080a86c8 13  14   .rodata ascii   Keld Simonsen
+617  0x000606d6 0x080a86d6 13  14   .rodata ascii   keld@dkuug.dk
+618  0x000606e4 0x080a86e4 13  14   .rodata ascii   +45 3122-6543
+619  0x000606f2 0x080a86f2 13  14   .rodata ascii   +45 3325-6543
+620  0x00060708 0x080a8708 10  11   .rodata ascii   1997-12-20
+621  0x00060714 0x080a8714 45  46   .rodata ascii   ISO/IEC JTC1/SC22/WG20 - internationalization
+622  0x00060744 0x080a8744 59  60   .rodata ascii   C/o Keld Simonsen, Skt. Jorgens Alle 8, DK-1615 Kobenhavn V
+623  0x00060780 0x080a8780 9   10   .rodata ascii   i18n:1999
+624  0x0006078a 0x080a878a 9   10   .rodata ascii   i18n:1999
+625  0x00060794 0x080a8794 9   10   .rodata ascii   i18n:1999
+626  0x0006079e 0x080a879e 9   10   .rodata ascii   i18n:1999
+627  0x000607a8 0x080a87a8 9   10   .rodata ascii   i18n:1999
+628  0x000607b2 0x080a87b2 9   10   .rodata ascii   i18n:1999
+629  0x000607bd 0x080a87bd 9   10   .rodata ascii   i18n:1999
+630  0x000607c7 0x080a87c7 9   10   .rodata ascii   i18n:1999
+631  0x000607d1 0x080a87d1 9   10   .rodata ascii   i18n:1999
+632  0x000607db 0x080a87db 9   10   .rodata ascii   i18n:1999
+633  0x000607e5 0x080a87e5 9   10   .rodata ascii   i18n:1999
+634  0x000607ef 0x080a87ef 9   10   .rodata ascii   i18n:1999
+635  0x000607f9 0x080a87f9 9   10   .rodata ascii   i18n:1999
+636  0x00060803 0x080a8803 9   10   .rodata ascii   i18n:1999
+637  0x0006080d 0x080a880d 9   10   .rodata ascii   i18n:1999
+638  0x00060817 0x080a8817 9   10   .rodata ascii   i18n:1999
+639  0x0006086e 0x080a886e 8   11   .rodata utf8    \n\bȆ\n\bֆ\n\b blocks=Basic Latin,Latin Extended-B,Armenian
+640  0x0006087e 0x080a887e 6   7    .rodata ascii   \n\bS~\n\b
+641  0x00060886 0x080a8886 14  15   .rodata ascii   \n\bS~\n\bS~\n\bS~\n\b
+642  0x00060978 0x080a8978 7   32   .rodata utf32le \a\b\t\n\v\f\r
+643  0x000609dc 0x080a89dc 95  384  .rodata utf32le  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+644  0x00060d67 0x080a8d67 7   8    .rodata ascii   \a\b\t\n\v\f\r
+645  0x00060d80 0x080a8d80 95  96   .rodata ascii    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+646  0x00060e60 0x080a8e60 4   5    .rodata ascii   libc
+647  0x00060e65 0x080a8e65 14  15   .rodata ascii   ANSI_X3.4-1968
+648  0x00060e74 0x080a8e74 5   6    .rodata ascii   POSIX
+649  0x00060e7c 0x080a8e7c 18  19   .rodata ascii   Unexpected error.\n
+650  0x00060e90 0x080a8e90 38  39   .rodata ascii   %s%s%s:%u: %s%sAssertion `%s' failed.\n
+651  0x00060ec4 0x080a8ec4 17  18   .rodata ascii   /usr/share/locale
+652  0x00060ed6 0x080a8ed6 8   9    .rodata ascii   messages
+653  0x00060f09 0x080a8f09 11  12   .rodata ascii   E\a\bLANGUAGE
+654  0x00060f15 0x080a8f15 5   6    .rodata ascii   POSIX
+655  0x00060f1b 0x080a8f1b 8   9    .rodata ascii   charset=
+656  0x00060f24 0x080a8f24 14  15   .rodata ascii   OUTPUT_CHARSET
+657  0x00060f4d 0x080a8f4d 13  14   .rodata ascii   /locale.alias
+658  0x00060f5b 0x080a8f5b 17  18   .rodata ascii   /usr/share/locale
+659  0x0006101c 0x080a901c 6   14   .rodata utf16le \b\t\n\v\f\r
+660  0x00061036 0x080a9036 6   14   .rodata utf16le \b\t\n\v\f\r
+661  0x0006104a 0x080a904a 6   14   .rodata utf16le \b\t\n\v\f\r
+662  0x00061058 0x080a9058 4   10   .rodata utf16le \n\v\f\r
+663  0x0006108c 0x080a908c 7   16   .rodata utf16le \t\b\t\n\v\f\r
+664  0x000610be 0x080a90be 6   14   .rodata utf16le \a\b\t\b\t\f
+665  0x00061202 0x080a9202 4   5    .rodata ascii   \a\b\t\v
+666  0x00061258 0x080a9258 4   5    .rodata ascii   ;{\a\b
+667  0x00061261 0x080a9261 11  12   .rodata ascii   |\a\b(}\a\bE}\a\b
+668  0x0006127d 0x080a927d 11  12   .rodata ascii   |\a\bb}\a\bw}\a\b
+669  0x00061289 0x080a9289 7   8    .rodata ascii   |\a\b_~\a\b
+670  0x000612b1 0x080a92b1 7   8    .rodata ascii   }\a\b_~\a\b
+671  0x00061321 0x080a9321 7   8    .rodata ascii   ~\a\b\a~\a\b
+672  0x00061349 0x080a9349 43  44   .rodata ascii   ~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\bl~\a\b
+673  0x00061375 0x080a9375 11  12   .rodata ascii   }\a\b_~\a\bI~\a\b
+674  0x00061479 0x080a9479 7   8    .rodata ascii   }\a\b\a~\a\b
+675  0x000614a8 0x080a94a8 7   8    .rodata ascii   plural=
+676  0x000614b0 0x080a94b0 9   10   .rodata ascii   nplurals=
+677  0x00061550 0x080a9550 4   20   .rodata utf32le L8ڥڢ blocks=Basic Latin,Arabic
+678  0x000615ed 0x080a95ed 5   8    .rodata utf8    ﬅ[Am- blocks=Alphabetic Presentation Forms,Basic Latin
+679  0x00061697 0x080a9697 4   5    .rodata ascii   kpnJ
+680  0x000616a5 0x080a96a5 4   6    .rodata utf8    fƭ$6 blocks=Basic Latin,Latin Extended-B
+681  0x0006173e 0x080a973e 4   5    .rodata ascii   uD;s
+682  0x0006183b 0x080a983b 4   5    .rodata ascii   )r+[
+683  0x00061840 0x080a9840 4   5    .rodata ascii   [!|n
+684  0x00061905 0x080a9905 5   6    .rodata ascii   uYD?e
+685  0x00061931 0x080a9931 4   6    .rodata utf8    ި6IS blocks=Thaana,Basic Latin
+686  0x00061950 0x080a9950 5   7    .rodata utf8    I9C-ƣ blocks=Basic Latin,Latin Extended-B
+687  0x00061a7b 0x080a9a7b 4   5    .rodata ascii   I!G.
+688  0x00061b35 0x080a9b35 7   8    .rodata ascii   U^h6LU3
+689  0x00061be2 0x080a9be2 4   5    .rodata ascii   U.y`
+690  0x00061bfa 0x080a9bfa 4   5    .rodata ascii   3?Cy
+691  0x00061c14 0x080a9c14 5   6    .rodata ascii   '_Djz
+692  0x00061c58 0x080a9c58 5   6    .rodata ascii   $po?b
+693  0x00061c73 0x080a9c73 5   6    .rodata ascii   w};u\n
+694  0x00061f2b 0x080a9f2b 4   5    .rodata ascii   =t%j
+695  0x00061f8c 0x080a9f8c 4   5    .rodata ascii   MP0!
+696  0x00061f98 0x080a9f98 5   7    .rodata utf8    *ǎ?:7 blocks=Basic Latin,Latin Extended-B
+697  0x00061fcf 0x080a9fcf 5   7    .rodata utf8    +\f͗20 blocks=Basic Latin,Combining Diacritical Marks
+698  0x00062021 0x080aa021 4   5    .rodata ascii   t0tv
+699  0x00062064 0x080aa064 8   9    .rodata ascii   =u8Q)+\n9
+700  0x00062093 0x080aa093 4   6    .rodata utf8    \f9Ԣ7 blocks=Basic Latin,Cyrillic Supplement
+701  0x000620a2 0x080aa0a2 6   7    .rodata ascii   {n \b$-
+702  0x000620b8 0x080aa0b8 4   5    .rodata ascii   %?\vD
+703  0x000620c8 0x080aa0c8 4   5    .rodata ascii   *~xx
+704  0x0006210a 0x080aa10a 5   7    .rodata utf8    Ѷ~j2= blocks=Cyrillic,Basic Latin
+705  0x00062157 0x080aa157 4   5    .rodata ascii   ?\fE,
+706  0x0006217b 0x080aa17b 4   5    .rodata ascii   MP#\e
+707  0x000621b4 0x080aa1b4 4   5    .rodata ascii   |;#o
+708  0x000621dd 0x080aa1dd 6   9    .rodata utf8    f%(炸r; blocks=Basic Latin,CJK Unified Ideographs
+709  0x00062205 0x080aa205 4   5    .rodata ascii   \r@SZ
+710  0x00062218 0x080aa218 6   8    .rodata utf8    TɤAc+; blocks=Basic Latin,IPA Extensions
+711  0x0006222d 0x080aa22d 4   5    .rodata ascii   \bU,i
+712  0x00062247 0x080aa247 5   6    .rodata ascii   ^2XX%
+713  0x0006227f 0x080aa27f 4   5    .rodata ascii   +}\\n
+714  0x000622c5 0x080aa2c5 4   6    .rodata utf8    ٸZNh blocks=Arabic,Basic Latin
+715  0x00062309 0x080aa309 5   6    .rodata ascii   !{>;b
+716  0x00062328 0x080aa328 5   6    .rodata ascii   T\v]=!
+717  0x00062332 0x080aa332 4   5    .rodata ascii   dI@B
+718  0x0006235c 0x080aa35c 4   6    .rodata utf8    2I%%
+719  0x00062380 0x080aa380 36  148  .rodata utf32le 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+720  0x00062420 0x080aa420 36  148  .rodata utf32le 0123456789abcdefghijklmnopqrstuvwxyz
+721  0x000624b8 0x080aa4b8 23  24   .rodata ascii   Operation not permitted
+722  0x000624d0 0x080aa4d0 25  26   .rodata ascii   No such file or directory
+723  0x000624ea 0x080aa4ea 15  16   .rodata ascii   No such process
+724  0x000624fa 0x080aa4fa 23  24   .rodata ascii   Interrupted system call
+725  0x00062512 0x080aa512 18  19   .rodata ascii   Input/output error
+726  0x00062525 0x080aa525 25  26   .rodata ascii   No such device or address
+727  0x0006253f 0x080aa53f 22  23   .rodata ascii   Argument list too long
+728  0x00062556 0x080aa556 17  18   .rodata ascii   Exec format error
+729  0x00062568 0x080aa568 19  20   .rodata ascii   Bad file descriptor
+730  0x0006257c 0x080aa57c 18  19   .rodata ascii   No child processes
+731  0x0006258f 0x080aa58f 22  23   .rodata ascii   Cannot allocate memory
+732  0x000625a6 0x080aa5a6 17  18   .rodata ascii   Permission denied
+733  0x000625b8 0x080aa5b8 11  12   .rodata ascii   Bad address
+734  0x000625c4 0x080aa5c4 21  22   .rodata ascii   Block device required
+735  0x000625da 0x080aa5da 23  24   .rodata ascii   Device or resource busy
+736  0x000625f2 0x080aa5f2 11  12   .rodata ascii   File exists
+737  0x000625fe 0x080aa5fe 25  26   .rodata ascii   Invalid cross-device link
+738  0x00062618 0x080aa618 14  15   .rodata ascii   No such device
+739  0x00062627 0x080aa627 15  16   .rodata ascii   Not a directory
+740  0x00062637 0x080aa637 14  15   .rodata ascii   Is a directory
+741  0x00062646 0x080aa646 16  17   .rodata ascii   Invalid argument
+742  0x00062657 0x080aa657 29  30   .rodata ascii   Too many open files in system
+743  0x00062675 0x080aa675 19  20   .rodata ascii   Too many open files
+744  0x00062689 0x080aa689 14  15   .rodata ascii   Text file busy
+745  0x00062698 0x080aa698 14  15   .rodata ascii   File too large
+746  0x000626a7 0x080aa6a7 23  24   .rodata ascii   No space left on device
+747  0x000626bf 0x080aa6bf 12  13   .rodata ascii   Illegal seek
+748  0x000626cc 0x080aa6cc 21  22   .rodata ascii   Read-only file system
+749  0x000626e2 0x080aa6e2 14  15   .rodata ascii   Too many links
+750  0x000626f1 0x080aa6f1 11  12   .rodata ascii   Broken pipe
+751  0x000626fd 0x080aa6fd 29  30   .rodata ascii   Numerical result out of range
+752  0x0006271b 0x080aa71b 25  26   .rodata ascii   Resource deadlock avoided
+753  0x00062735 0x080aa735 18  19   .rodata ascii   File name too long
+754  0x00062748 0x080aa748 18  19   .rodata ascii   No locks available
+755  0x0006275b 0x080aa75b 24  25   .rodata ascii   Function not implemented
+756  0x00062774 0x080aa774 19  20   .rodata ascii   Directory not empty
+757  0x00062788 0x080aa788 26  27   .rodata ascii   No message of desired type
+758  0x000627a3 0x080aa7a3 18  19   .rodata ascii   Identifier removed
+759  0x000627b6 0x080aa7b6 27  28   .rodata ascii   Channel number out of range
+760  0x000627d2 0x080aa7d2 24  25   .rodata ascii   Level 2 not synchronized
+761  0x000627eb 0x080aa7eb 14  15   .rodata ascii   Level 3 halted
+762  0x000627fa 0x080aa7fa 13  14   .rodata ascii   Level 3 reset
+763  0x00062808 0x080aa808 24  25   .rodata ascii   Link number out of range
+764  0x00062821 0x080aa821 28  29   .rodata ascii   Protocol driver not attached
+765  0x0006283e 0x080aa83e 26  27   .rodata ascii   No CSI structure available
+766  0x00062859 0x080aa859 14  15   .rodata ascii   Level 2 halted
+767  0x00062868 0x080aa868 16  17   .rodata ascii   Invalid exchange
+768  0x00062879 0x080aa879 26  27   .rodata ascii   Invalid request descriptor
+769  0x00062894 0x080aa894 13  14   .rodata ascii   Exchange full
+770  0x000628a2 0x080aa8a2 8   9    .rodata ascii   No anode
+771  0x000628ab 0x080aa8ab 20  21   .rodata ascii   Invalid request code
+772  0x000628c0 0x080aa8c0 12  13   .rodata ascii   Invalid slot
+773  0x000628cd 0x080aa8cd 20  21   .rodata ascii   Bad font file format
+774  0x000628e2 0x080aa8e2 19  20   .rodata ascii   Device not a stream
+775  0x000628f6 0x080aa8f6 17  18   .rodata ascii   No data available
+776  0x00062908 0x080aa908 13  14   .rodata ascii   Timer expired
+777  0x00062916 0x080aa916 24  25   .rodata ascii   Out of streams resources
+778  0x0006292f 0x080aa92f 29  30   .rodata ascii   Machine is not on the network
+779  0x0006294d 0x080aa94d 21  22   .rodata ascii   Package not installed
+780  0x00062963 0x080aa963 16  17   .rodata ascii   Object is remote
+781  0x00062974 0x080aa974 21  22   .rodata ascii   Link has been severed
+782  0x0006298a 0x080aa98a 15  16   .rodata ascii   Advertise error
+783  0x0006299a 0x080aa99a 13  14   .rodata ascii   Srmount error
+784  0x000629a8 0x080aa9a8 27  28   .rodata ascii   Communication error on send
+785  0x000629c4 0x080aa9c4 14  15   .rodata ascii   Protocol error
+786  0x000629d3 0x080aa9d3 18  19   .rodata ascii   Multihop attempted
+787  0x000629e6 0x080aa9e6 18  19   .rodata ascii   RFS specific error
+788  0x000629f9 0x080aa9f9 11  12   .rodata ascii   Bad message
+789  0x00062a05 0x080aaa05 26  27   .rodata ascii   Name not unique on network
+790  0x00062a20 0x080aaa20 28  29   .rodata ascii   File descriptor in bad state
+791  0x00062a3d 0x080aaa3d 22  23   .rodata ascii   Remote address changed
+792  0x00062a54 0x080aaa54 18  19   .rodata ascii   Streams pipe error
+793  0x00062a67 0x080aaa67 14  15   .rodata ascii   Too many users
+794  0x00062a76 0x080aaa76 28  29   .rodata ascii   Destination address required
+795  0x00062a93 0x080aaa93 16  17   .rodata ascii   Message too long
+796  0x00062aa4 0x080aaaa4 22  23   .rodata ascii   Protocol not available
+797  0x00062abb 0x080aaabb 22  23   .rodata ascii   Protocol not supported
+798  0x00062ad2 0x080aaad2 25  26   .rodata ascii   Socket type not supported
+799  0x00062aec 0x080aaaec 23  24   .rodata ascii   Operation not supported
+800  0x00062b04 0x080aab04 29  30   .rodata ascii   Protocol family not supported
+801  0x00062b22 0x080aab22 22  23   .rodata ascii   Address already in use
+802  0x00062b39 0x080aab39 15  16   .rodata ascii   Network is down
+803  0x00062b49 0x080aab49 22  23   .rodata ascii   Network is unreachable
+804  0x00062b60 0x080aab60 24  25   .rodata ascii   Connection reset by peer
+805  0x00062b79 0x080aab79 25  26   .rodata ascii   No buffer space available
+806  0x00062b93 0x080aab93 20  21   .rodata ascii   Connection timed out
+807  0x00062ba8 0x080aaba8 18  19   .rodata ascii   Connection refused
+808  0x00062bbb 0x080aabbb 12  13   .rodata ascii   Host is down
+809  0x00062bc8 0x080aabc8 16  17   .rodata ascii   No route to host
+810  0x00062bd9 0x080aabd9 29  30   .rodata ascii   Operation already in progress
+811  0x00062bf7 0x080aabf7 25  26   .rodata ascii   Operation now in progress
+812  0x00062c11 0x080aac11 21  22   .rodata ascii   Stale NFS file handle
+813  0x00062c27 0x080aac27 24  25   .rodata ascii   Structure needs cleaning
+814  0x00062c40 0x080aac40 27  28   .rodata ascii   Not a XENIX named type file
+815  0x00062c5c 0x080aac5c 29  30   .rodata ascii   No XENIX semaphores available
+816  0x00062c7a 0x080aac7a 20  21   .rodata ascii   Is a named type file
+817  0x00062c8f 0x080aac8f 16  17   .rodata ascii   Remote I/O error
+818  0x00062ca0 0x080aaca0 19  20   .rodata ascii   Disk quota exceeded
+819  0x00062cb4 0x080aacb4 15  16   .rodata ascii   No medium found
+820  0x00062cc4 0x080aacc4 17  18   .rodata ascii   Wrong medium type
+821  0x00062cd6 0x080aacd6 18  19   .rodata ascii   Operation canceled
+822  0x00062cec 0x080aacec 32  33   .rodata ascii   Resource temporarily unavailable
+823  0x00062d10 0x080aad10 30  31   .rodata ascii   Inappropriate ioctl for device
+824  0x00062d30 0x080aad30 32  33   .rodata ascii   Numerical argument out of domain
+825  0x00062d54 0x080aad54 33  34   .rodata ascii   Too many levels of symbolic links
+826  0x00062d78 0x080aad78 37  38   .rodata ascii   Value too large for defined data type
+827  0x00062da0 0x080aada0 38  39   .rodata ascii   Can not access a needed shared library
+828  0x00062dc8 0x080aadc8 36  37   .rodata ascii   Accessing a corrupted shared library
+829  0x00062df0 0x080aadf0 31  32   .rodata ascii   .lib section in a.out corrupted
+830  0x00062e10 0x080aae10 47  48   .rodata ascii   Attempting to link in too many shared libraries
+831  0x00062e40 0x080aae40 37  38   .rodata ascii   Cannot exec a shared library directly
+832  0x00062e68 0x080aae68 49  50   .rodata ascii   Invalid or incomplete multibyte or wide character
+833  0x00062e9c 0x080aae9c 43  44   .rodata ascii   Interrupted system call should be restarted
+834  0x00062ec8 0x080aaec8 30  31   .rodata ascii   Socket operation on non-socket
+835  0x00062ee8 0x080aaee8 30  31   .rodata ascii   Protocol wrong type for socket
+836  0x00062f08 0x080aaf08 40  41   .rodata ascii   Address family not supported by protocol
+837  0x00062f34 0x080aaf34 31  32   .rodata ascii   Cannot assign requested address
+838  0x00062f54 0x080aaf54 35  36   .rodata ascii   Network dropped connection on reset
+839  0x00062f78 0x080aaf78 32  33   .rodata ascii   Software caused connection abort
+840  0x00062f9c 0x080aaf9c 39  40   .rodata ascii   Transport endpoint is already connected
+841  0x00062fc4 0x080aafc4 35  36   .rodata ascii   Transport endpoint is not connected
+842  0x00062fe8 0x080aafe8 45  46   .rodata ascii   Cannot send after transport endpoint shutdown
+843  0x00063018 0x080ab018 34  35   .rodata ascii   Too many references: cannot splice
+844  0x00063046 0x080ab046 5   7    .rodata utf8    \n\bФ\n\b blocks=Basic Latin,Cyrillic
+845  0x0006307a 0x080ab07a 8   11   .rodata utf8    \n\bĥ\n\bڥ\n\b blocks=Basic Latin,Latin Extended-A,Arabic
+846  0x000630b6 0x080ab0b6 5   7    .rodata utf8    \n\b̦\n\b blocks=Basic Latin,Combining Diacritical Marks
+847  0x000630f2 0x080ab0f2 5   7    .rodata utf8    \n\bҧ\n\b blocks=Basic Latin,Cyrillic
+848  0x00063122 0x080ab122 5   7    .rodata utf8    \n\b(\n\b
+849  0x0006315a 0x080ab15a 8   11   .rodata utf8    \n\bĩ\n\bө\n\b blocks=Basic Latin,Latin Extended-A,Cyrillic
+850  0x0006317e 0x080ab17e 5   7    .rodata utf8    \n\bȭ\n\b blocks=Basic Latin,Latin Extended-B
+851  0x0006319e 0x080ab19e 6   8    .rodata utf8    \n\bȮ\n\bv blocks=Basic Latin,Latin Extended-B
+852  0x000631b6 0x080ab1b6 5   7    .rodata utf8    \n\bҪ\n\b blocks=Basic Latin,Cyrillic
+853  0x000631ea 0x080ab1ea 5   7    .rodata utf8    \n\bį\n\b blocks=Basic Latin,Latin Extended-A
+854  0x00063202 0x080ab202 8   11   .rodata utf8    \n\bȫ\n\b٫\n\b blocks=Basic Latin,Latin Extended-B,Arabic
+855  0x0006322e 0x080ab22e 9   12   .rodata utf8    \n\bĬ\n\b֬\n\b~ blocks=Basic Latin,Latin Extended-A,Hebrew
+856  0x000632ae 0x080ab2ae 5   7    .rodata utf8    \a\bЫ\a\b blocks=Basic Latin,Cyrillic
+857  0x00063353 0x080ab353 20  21   .rodata ascii   \b_IO_wfile_underflow
+858  0x00063368 0x080ab368 27  28   .rodata ascii   status == __codecvt_partial
+859  0x00063384 0x080ab384 10  11   .rodata ascii   wfileops.c
+860  0x000633f0 0x080ab3f0 4   20   .rodata utf32le  \b¹䀀 blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs Extension A
+861  0x00063404 0x080ab404 4   20   .rodata utf32le  \n¼  blocks=Basic Latin,Latin-1 Supplement,General Punctuation
+862  0x00063418 0x080ab418 4   20   .rodata utf32le  \f¼䀀 blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs Extension A
+863  0x00063440 0x080ab440 8   36   .rodata utf32le @#Â􀀀\b@%Â blocks=Basic Latin,Latin-1 Supplement,Supplementary Private Use Area-B
+864  0x00063464 0x080ab464 4   20   .rodata utf32le \b@)Â blocks=Basic Latin,Latin-1 Supplement
+865  0x00063478 0x080ab478 15  64   .rodata utf32le \b@,¼耀\b@0¹耀\b@A¿𠀀 blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs,CJK Unified Ideographs Extension B
+866  0x000634e0 0x080ab4e0 4   20   .rodata utf32le  D¿􀀀 blocks=Basic Latin,Latin-1 Supplement,Supplementary Private Use Area-B
+867  0x00063508 0x080ab508 9   40   .rodata utf32le  `¼䀀\b@f¼  blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs Extension A,General Punctuation
+868  0x00063530 0x080ab530 4   20   .rodata utf32le @g¼䀀 blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs Extension A
+869  0x00063544 0x080ab544 4   20   .rodata utf32le @h¼耀 blocks=Basic Latin,Latin-1 Supplement,CJK Unified Ideographs
+870  0x00063558 0x080ab558 13  56   .rodata utf32le @x¿􀀀\b@y¿𠀀\b@z¿ blocks=Basic Latin,Latin-1 Supplement,Supplementary Private Use Area-B,CJK Unified Ideographs Extension B
+871  0x00063590 0x080ab590 4   20   .rodata utf32le \b@{¿ blocks=Basic Latin,Latin-1 Supplement
+872  0x000635a4 0x080ab5a4 9   40   .rodata utf32le \b@|¿􀀀\b@}¿ blocks=Basic Latin,Latin-1 Supplement,Supplementary Private Use Area-B
+873  0x00063650 0x080ab650 12  13   .rodata ascii   l_check_word
+874  0x0006365d 0x080ab65d 11  12   .rodata ascii   handle_i486
+875  0x00063669 0x080ab669 10  11   .rodata ascii   handle_amd
+876  0x00063ab6 0x080abab6 13  14   .rodata ascii   \a\boffset == 2
+877  0x00063ac4 0x080abac4 11  12   .rodata ascii   GETCONF_DIR
+878  0x00063ad0 0x080abad0 27  28   .rodata ascii   /usr/lib/misc/glibc/getconf
+879  0x00063aec 0x080abaec 28  29   .rodata ascii   /proc/sys/kernel/ngroups_max
+880  0x00063b09 0x080abb09 26  27   .rodata ascii   /proc/sys/kernel/rtsig-max
+881  0x00063b24 0x080abb24 12  13   .rodata ascii   LPBIG_OFFBIG
+882  0x00063b31 0x080abb31 10  11   .rodata ascii   LP64_OFF64
+883  0x00063b3c 0x080abb3c 17  18   .rodata ascii   ! "cannot happen"
+884  0x00063b50 0x080abb50 41  42   .rodata ascii   ../sysdeps/unix/sysv/linux/i386/sysconf.c
+885  0x00063b7a 0x080abb7a 8   9    .rodata ascii   __getcwd
+886  0x00063b84 0x080abb84 63  64   .rodata ascii   (*__errno_location ()) != 34 || buf != ((void *)0) || size != 0
+887  0x00063bc4 0x080abbc4 35  36   .rodata ascii   ../sysdeps/unix/sysv/linux/getcwd.c
+888  0x00063be8 0x080abbe8 5   6    .rodata ascii   /proc
+889  0x00063bee 0x080abbee 13  14   .rodata ascii   get_proc_path
+890  0x00063bfc 0x080abbfc 9   10   .rodata ascii   /etc/mtab
+891  0x00063c06 0x080abc06 4   5    .rodata ascii   proc
+892  0x00063c0b 0x080abc0b 10  11   .rodata ascii   /etc/fstab
+893  0x00063c1a 0x080abc1a 9   10   .rodata ascii   processor
+894  0x00063c24 0x080abc24 16  17   .rodata ascii   MemTotal: %ld kB
+895  0x00063c35 0x080abc35 15  16   .rodata ascii   MemFree: %ld kB
+896  0x00063c45 0x080abc45 17  18   .rodata ascii   _dl_start_profile
+897  0x00063c57 0x080abc57 25  26   .rodata ascii   %s: cannot open file: %s\n
+898  0x00063c71 0x080abc71 25  26   .rodata ascii   %s: cannot stat file: %s\n
+899  0x00063c8b 0x080abc8b 27  28   .rodata ascii   %s: cannot create file: %s\n
+900  0x00063ca7 0x080abca7 24  25   .rodata ascii   %s: cannot map file: %s\n
+901  0x00063cc0 0x080abcc0 50  51   .rodata ascii   %s: file is no correct profile data file for `%s'\n
+902  0x00063cf4 0x080abcf4 42  43   .rodata ascii   Out of memory while initializing profiler\n
+903  0x00063d1f 0x080abd1f 13  14   .rodata ascii   GLIBC_PRIVATE
+904  0x00063d2d 0x080abd2d 13  14   .rodata ascii   _dl_open_hook
+905  0x00063d3b 0x080abd3b 6   7    .rodata ascii   IGNORE
+906  0x00063d42 0x080abd42 7   8    .rodata ascii   __gconv
+907  0x00063d4c 0x080abd4c 47  48   .rodata ascii   outbuf != ((void *)0) && *outbuf != ((void *)0)
+908  0x00063d7c 0x080abd7c 7   8    .rodata ascii   gconv.c
+909  0x00063d84 0x080abd84 27  28   .rodata ascii   irreversible != ((void *)0)
+910  0x00063da0 0x080abda0 6   28   .rodata utf32le (null)
+911  0x00063dcb 0x080abdcb 5   6    .rodata ascii   \b ?\b\b
+912  0x00063e14 0x080abe14 14  15   .rodata ascii   outdigit_value
+913  0x00063e23 0x080abe23 16  17   .rodata ascii   outdigitwc_value
+914  0x00063e34 0x080abe34 13  14   .rodata ascii   _IO_vfwprintf
+915  0x00063ea4 0x080abea4 9   40   .rodata utf32le \b\b\b\b\b\b\b\b\b
+916  0x00063fed 0x080abfed 11  12   .rodata ascii   \r\b\bt\r\b\b&\f\b\b
+917  0x00063ff9 0x080abff9 7   8    .rodata ascii   \v\b\b \v\b\b
+918  0x00064005 0x080ac005 7   8    .rodata ascii   \t\b\b'\r\b\b
+919  0x00064015 0x080ac015 4   5    .rodata ascii   \f\b\b5
+920  0x00064041 0x080ac041 7   8    .rodata ascii   \r\b\bn\b\b\b
+921  0x0006404a 0x080ac04a 6   7    .rodata ascii   \b\bD\f\b\b
+922  0x00064052 0x080ac052 6   7    .rodata ascii   \b\bG\n\b\b
+923  0x00064085 0x080ac085 7   8    .rodata ascii   \t\b\b'\r\b\b
+924  0x00064095 0x080ac095 4   5    .rodata ascii   \f\b\b5
+925  0x000640c1 0x080ac0c1 7   8    .rodata ascii   \r\b\bn\b\b\b
+926  0x000640ca 0x080ac0ca 6   7    .rodata ascii   \b\bD\f\b\b
+927  0x00064106 0x080ac106 6   7    .rodata ascii   \b\b'\r\b\b
+928  0x00064115 0x080ac115 4   5    .rodata ascii   \f\b\b5
+929  0x00064141 0x080ac141 7   8    .rodata ascii   \r\b\bn\b\b\b
+930  0x0006414a 0x080ac14a 6   7    .rodata ascii   \b\bD\f\b\b
+931  0x00064241 0x080ac241 7   8    .rodata ascii   \r\b\bn\b\b\b
+932  0x000642c1 0x080ac2c1 7   8    .rodata ascii   \r\b\bn\b\b\b
+933  0x00064322 0x080ac322 6   7    .rodata ascii   \b\bp \b\b
+934  0x00064332 0x080ac332 10  11   .rodata ascii   \b\b6!\b\bw \b\b
+935  0x00064358 0x080ac358 5   24   .rodata utf32le (nil)
+936  0x00064370 0x080ac370 11  12   .rodata ascii   _IO_vfscanf
+937  0x000643e9 0x080ac3e9 7   8    .rodata ascii   E\b\bXH\b\b
+938  0x000643f1 0x080ac3f1 7   8    .rodata ascii   E\b\bOH\b\b
+939  0x000643f9 0x080ac3f9 7   8    .rodata ascii   E\b\b1H\b\b
+940  0x000644ed 0x080ac4ed 7   8    .rodata ascii   B\b\bvH\b\b
+941  0x0006450d 0x080ac50d 7   8    .rodata ascii   B\b\b]P\b\b
+942  0x00064531 0x080ac531 7   8    .rodata ascii   W\b\bBP\b\b
+943  0x00064559 0x080ac559 7   8    .rodata ascii   B\b\blO\b\b
+944  0x00064585 0x080ac585 13  14   .rodata ascii   O\b\bto_inpunct
+945  0x00064593 0x080ac593 9   10   .rodata ascii   vfscanf.c
+946  0x000645a0 0x080ac5a0 235 236  .rodata ascii   cnt < (((uint32_t) (((__locale_t) (__pthread_internal_tsd_get != ((void *)0) ? __pthread_internal_tsd_get (_LIBC_TSD_KEY_LOCALE) : __libc_tsd_LOCALE_data))->__locales[__LC_CTYPE])->values[((int) (_NL_CTYPE_MB_CUR_MAX) & 0xffff)].word))
+947  0x000647ee 0x080ac7ee 5   7    .rodata utf8    \b\bƕ\b\b blocks=Basic Latin,Latin Extended-B
+948  0x000647fe 0x080ac7fe 11  15   .rodata utf8    \b\bƕ\b\bƕ\b\bƕ\b\b blocks=Basic Latin,Latin Extended-B
+949  0x0006486e 0x080ac86e 5   7    .rodata utf8    \b\bƕ\b\b blocks=Basic Latin,Latin Extended-B
+950  0x0006487e 0x080ac87e 11  15   .rodata utf8    \b\bƕ\b\bƕ\b\bƕ\b\b blocks=Basic Latin,Latin Extended-B
+951  0x000648ce 0x080ac8ce 15  16   .rodata ascii   \b\bout of memory
+952  0x000648de 0x080ac8de 10  11   .rodata ascii   %s%s%s: %s
+953  0x000648e9 0x080ac8e9 6   7    .rodata ascii   %s%s%s
+954  0x000648f0 0x080ac8f0 11  12   .rodata ascii   _dlfcn_hook
+955  0x000648fc 0x080ac8fc 26  27   .rodata ascii   unsupported dlinfo request
+956  0x00064922 0x080ac922 5   7    .rodata utf8    \b\bП\b\b blocks=Basic Latin,Cyrillic
+957  0x00064932 0x080ac932 19  20   .rodata ascii   \b\binvalid namespace
+958  0x00064946 0x080ac946 13  14   .rodata ascii   Unknown error
+959  0x00064954 0x080ac954 13  14   .rodata ascii   __mbsrtowcs_l
+960  0x00064964 0x080ac964 40  41   .rodata ascii   ((wchar_t *) data.__outbuf)[-1] == L'\0'
+961  0x0006498d 0x080ac98d 13  14   .rodata ascii   mbsrtowcs_l.c
+962  0x0006499b 0x080ac99b 7   8    .rodata ascii    %d %d 
+963  0x000649a3 0x080ac9a3 18  19   .rodata ascii   %s %s %s %s %d %d\n
+964  0x000649b6 0x080ac9b6 26  27   .rodata ascii   cannot extend global scope
+965  0x000649d1 0x080ac9d1 13  14   .rodata ascii   ns == l->l_ns
+966  0x000649df 0x080ac9df 9   10   .rodata ascii   dl-open.c
+967  0x000649e9 0x080ac9e9 14  15   .rodata ascii   mode & 0x00004
+968  0x000649f8 0x080ac9f8 6   7    .rodata ascii   dlopen
+969  0x000649ff 0x080ac9ff 29  30   .rodata ascii   (call_map)->l_name[0] == '\0'
+970  0x00064a1d 0x080aca1d 24  25   .rodata ascii   cannot create scope list
+971  0x00064a36 0x080aca36 25  26   .rodata ascii   invalid mode for dlopen()
+972  0x00064a50 0x080aca50 14  15   .rodata ascii   dl_open_worker
+973  0x00064a60 0x080aca60 44  45   .rodata ascii   opening file=%s [%lu]; direct_opencount=%u\n\n
+974  0x00064a90 0x080aca90 39  40   .rodata ascii   empty dynamic string token substitution
+975  0x00064ab8 0x080acab8 37  38   .rodata ascii   DST not allowed in SUID/SGID programs
+976  0x00064ae0 0x080acae0 42  43   .rodata ascii   no more namespaces available for dlmopen()
+977  0x00064b0c 0x080acb0c 37  38   .rodata ascii   invalid target namespace in dlmopen()
+978  0x00064b32 0x080acb32 9   10   .rodata ascii   _dl_close
+979  0x00064b3c 0x080acb3c 41  42   .rodata ascii   jmap->l_idx >= 0 && jmap->l_idx < nloaded
+980  0x00064b68 0x080acb68 43  44   .rodata ascii   (*lp)->l_idx >= 0 && (*lp)->l_idx < nloaded
+981  0x00064b94 0x080acb94 64  65   .rodata ascii   imap->l_type == lt_loaded && (imap->l_flags_1 & 0x00000008) == 0
+982  0x00064bd8 0x080acbd8 41  42   .rodata ascii   \nclosing file=%s; direct_opencount == %u\n
+983  0x00064c02 0x080acc02 10  11   .rodata ascii   dl-close.c
+984  0x00064c0d 0x080acc0d 22  23   .rodata ascii   shared object not open
+985  0x00064c24 0x080acc24 14  15   .rodata ascii   idx == nloaded
+986  0x00064c33 0x080acc33 25  26   .rodata ascii   \ncalling fini: %s [%lu]\n\n
+987  0x00064c4d 0x080acc4d 25  26   .rodata ascii   imap->l_type == lt_loaded
+988  0x00064cc8 0x080accc8 8   9    .rodata ascii   UUUUUUUU
+989  0x00064cd7 0x080accd7 9   10   .rodata ascii   ?33333333
+990  0x00064d10 0x080acd10 7   8    .rodata ascii   UUUUUUU
+991  0x00064d4b 0x080acd4b 5   6    .rodata ascii   P^Cy\r
+992  0x00064d5e 0x080acd5e 4   7    .rodata utf8    0\f袋. blocks=Basic Latin,CJK Unified Ideographs
+993  0x00064d6c 0x080acd6c 4   5    .rodata ascii   ,d!\v
+994  0x00064d77 0x080acd77 9   12   .rodata utf8    \np=\nףp=\n؉ blocks=Basic Latin,Hebrew,Arabic
+995  0x00064d8c 0x080acd8c 6   7    .rodata ascii   ^B{\t$I
+996  0x00064dc7 0x080acdc7 9   10   .rodata ascii   \aP\auP\auP\a
+997  0x00064de4 0x080acde4 4   20   .rodata utf32le \ndϨ✐ blocks=Basic Latin,Greek and Coptic,Dingbats
+998  0x00064e6c 0x080ace6c 5   6    .rodata ascii   inity
+999  0x00064e84 0x080ace84 4   20   .rodata utf32le \ndϨ✐ blocks=Basic Latin,Greek and Coptic,Dingbats
+1000 0x00064f24 0x080acf24 4   20   .rodata utf32le \ndϨ✐ blocks=Basic Latin,Greek and Coptic,Dingbats
+1001 0x00064fa0 0x080acfa0 58  59   .rodata ascii   cannot apply additional memory protection after relocation
+1002 0x00064fe0 0x080acfe0 24  25   .rodata ascii   unexpected reloc type 0x
+1003 0x00065000 0x080ad000 28  29   .rodata ascii   unexpected PLT reloc type 0x
+1004 0x00065020 0x080ad020 19  20   .rodata ascii   _dl_relocate_object
+1005 0x00065034 0x080ad034 24  25   .rodata ascii   elf_machine_rel_relative
+1006 0x00065051 0x080ad051 7   8    .rodata ascii   R\t\b:S\t\b
+1007 0x00065065 0x080ad065 11  12   .rodata ascii   Q\t\b:S\t\b:S\t\b
+1008 0x00065071 0x080ad071 7   8    .rodata ascii   Q\t\bBR\t\b
+1009 0x00065081 0x080ad081 7   8    .rodata ascii   Q\t\bXR\t\b
+1010 0x00065091 0x080ad091 7   8    .rodata ascii   Q\t\b,R\t\b
+1011 0x000650a1 0x080ad0a1 7   8    .rodata ascii   Q\t\b\nN\t\b
+1012 0x000650b1 0x080ad0b1 7   8    .rodata ascii   R\t\bSS\t\b
+1013 0x000650c1 0x080ad0c1 44  45   .rodata ascii   R\t\bUO\t\bSS\t\bSS\t\b((reloc->r_info) & 0xff) == 8
+1014 0x000650ee 0x080ad0ee 28  29   .rodata ascii   ../sysdeps/i386/dl-machine.h
+1015 0x0006510b 0x080ad10b 7   8    .rodata ascii    (lazy)
+1016 0x00065113 0x080ad113 29  30   .rodata ascii   \nrelocation processing: %s%s\n
+1017 0x00065134 0x080ad134 50  51   .rodata ascii   %s: profiler out of memory shadowing PLTREL of %s\n
+1018 0x00065168 0x080ad168 73  74   .rodata ascii   %s: Symbol `%s' has different size in shared object, consider re-linking\n
+1019 0x000651b4 0x080ad1b4 43  44   .rodata ascii   cannot make segment writable for relocation
+1020 0x000651e0 0x080ad1e0 39  40   .rodata ascii   cannot restore segment prot after reloc
+1021 0x00065208 0x080ad208 42  43   .rodata ascii   %s: profiler found no PLTREL in object %s\n
+1022 0x00065233 0x080ad233 19  20   .rodata ascii   _dl_map_object_deps
+1023 0x00065248 0x080ad248 78  79   .rodata ascii   cannot load auxiliary `%s' because of empty dynamic string token substitution\n
+1024 0x00065298 0x080ad298 34  35   .rodata ascii   map->l_searchlist.r_list[0] == map
+1025 0x000652bc 0x080ad2bc 31  32   .rodata ascii   cannot allocate dependency list
+1026 0x000652dc 0x080ad2dc 34  35   .rodata ascii   cannot allocate symbol search list
+1027 0x00065300 0x080ad300 46  47   .rodata ascii   load auxiliary object=%s requested by file=%s\n
+1028 0x00065330 0x080ad330 39  40   .rodata ascii   map->l_searchlist.r_list == ((void *)0)
+1029 0x00065358 0x080ad358 40  41   .rodata ascii   empty dynamics string token substitution
+1030 0x00065384 0x080ad384 45  46   .rodata ascii   load filtered object=%s requested by file=%s\n
+1031 0x000653b4 0x080ad3b4 46  47   .rodata ascii   Filters not supported with LD_TRACE_PRELINKING
+1032 0x000653e3 0x080ad3e3 9   10   .rodata ascii   dl-deps.c
+1033 0x000653ed 0x080ad3ed 12  13   .rodata ascii   cnt <= nlist
+1034 0x000653fa 0x080ad3fa 5   6    .rodata ascii   fixup
+1035 0x00065400 0x080ad400 13  14   .rodata ascii   profile_fixup
+1036 0x0006540e 0x080ad40e 29  30   .rodata ascii   ((reloc->r_info) & 0xff) == 7
+1037 0x0006542c 0x080ad42c 12  13   .rodata ascii   dl-runtime.c
+1038 0x00065439 0x080ad439 19  20   .rodata ascii   \ncalling init: %s\n\n
+1039 0x0006544d 0x080ad44d 22  23   .rodata ascii   \ncalling preinit: %s\n\n
+1040 0x00065464 0x080ad464 13  14   .rodata ascii   _dl_sort_fini
+1041 0x00065472 0x080ad472 8   9    .rodata ascii   _dl_fini
+1042 0x0006547b 0x080ad47b 9   10   .rodata ascii   j < nmaps
+1043 0x00065485 0x080ad485 9   10   .rodata ascii   dl-fini.c
+1044 0x0006548f 0x080ad48f 11  12   .rodata ascii   i < nloaded
+1045 0x0006549b 0x080ad49b 22  23   .rodata ascii   ns != 0 || nloaded > 0
+1046 0x000654b2 0x080ad4b2 23  24   .rodata ascii   ns != 0 || i == nloaded
+1047 0x000654cc 0x080ad4cc 43  44   .rodata ascii   ns == 0 || i == nloaded || i == nloaded - 1
+1048 0x000654f8 0x080ad4f8 12  13   .rodata ascii   match_symbol
+1049 0x00065505 0x080ad505 22  23   .rodata ascii   _dl_check_map_versions
+1050 0x0006551c 0x080ad51c 14  15   .rodata ascii   weak version `
+1051 0x0006552b 0x080ad52b 25  26   .rodata ascii   ' not found (required by 
+1052 0x00065545 0x080ad545 20  21   .rodata ascii   unsupported version 
+1053 0x0006555a 0x080ad55a 17  18   .rodata ascii    of Verdef record
+1054 0x0006556c 0x080ad56c 15  16   .rodata ascii   def_offset != 0
+1055 0x0006557c 0x080ad57c 12  13   .rodata ascii   dl-version.c
+1056 0x00065589 0x080ad589 21  22   .rodata ascii   needed != ((void *)0)
+1057 0x0006559f 0x080ad59f 19  20   .rodata ascii    of Verneed record\n
+1058 0x000655b4 0x080ad5b4 46  47   .rodata ascii   no version information available (required by 
+1059 0x000655e4 0x080ad5e4 57  58   .rodata ascii   checking for version `%s' in file %s required by file %s\n
+1060 0x00065620 0x080ad620 39  40   .rodata ascii   cannot allocate version reference table
+1061 0x00065648 0x080ad648 45  46   .rodata ascii   RTLD_NEXT used in code not dynamically loaded
+0    0x000663e4 0x080af3e4 8   9    .data   ascii   S~\n\bS~\n\b
+1    0x00066422 0x080af422 7   8    .data   ascii   \t\b }\n\b 
+2    0x0006642a 0x080af42a 9   11   .data   utf8    \n\b\b\n\b@|\n\b
+3    0x0006645d 0x080af45d 4   5    .data   ascii   p\n\bz
+4    0x000664c2 0x080af4c2 7   8    .data   ascii   \t\b }\n\b 
+5    0x000664ca 0x080af4ca 9   11   .data   utf8    \n\b\b\n\b@|\n\b
+6    0x000664fd 0x080af4fd 4   5    .data   ascii   p\n\bz
+7    0x00066ba2 0x080afba2 5   7    .data   utf8    \t\bϩ\t\b blocks=Basic Latin,Greek and Coptic
+8    0x00066bb6 0x080afbb6 6   8    .data   utf8    \t\bȭ\t\b6 blocks=Basic Latin,Latin Extended-B
+9    0x00066bd2 0x080afbd2 5   7    .data   utf8    \t\bҪ\t\b blocks=Basic Latin,Cyrillic
+10   0x00066c06 0x080afc06 5   7    .data   utf8    \t\bϫ\t\b blocks=Basic Latin,Greek and Coptic
+11   0x00066c0e 0x080afc0e 6   8    .data   utf8    \t\b֫\t\b\b blocks=Basic Latin,Hebrew
+12   0x00066c42 0x080afc42 5   7    .data   utf8    \t\bש\t\b blocks=Basic Latin,Hebrew
+13   0x00066e30 0x080afe30 4   6    .data   utf8    լ\t\b@ blocks=Armenian,Basic Latin
+14   0x00066f2a 0x080aff2a 6   8    .data   utf8    \t\b6\t\b@
+15   0x00066f32 0x080aff32 5   7    .data   utf8    \t\bܺ\t\b blocks=Basic Latin,Syriac
+16   0x00067021 0x080b0021 7   8    .data   ascii   E\t\bpE\t\b
+17   0x00067029 0x080b0029 8   9    .data   ascii   E\t\bPF\t\b 
