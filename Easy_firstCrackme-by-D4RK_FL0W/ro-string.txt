@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002010 0x00002010 33  34   .rodata ascii Crackme1 By D4RK_FL0W\n\nPassword: 
+1   0x00002032 0x00002032 24  25   .rodata ascii \nWell Done, password is 
+2   0x0000204d 0x0000204d 11  12   .rodata ascii  Is WRONG!\n
