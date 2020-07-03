@@ -1,0 +1,22 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+30   ---------- 0x00004200 GLOBAL OBJ    280      std::cin
+31   ---------- 0x000040e0 GLOBAL OBJ    272      std::cout
+51   ---------- 0x000040d8 GLOBAL NOTYPE 0        _edata
+53   0x00002000 0x00002000 GLOBAL OBJ    4        _IO_stdin_used
+57   0x00001428 0x00001428 GLOBAL FUNC   250      main
+61   0x000030c8 0x000040c8 GLOBAL OBJ    0        __dso_handle
+67   0x000018e4 0x000018e4 GLOBAL FUNC   0        _fini
+72   0x00001190 0x00001190 GLOBAL FUNC   43       _start
+75   0x00001275 0x00001275 GLOBAL FUNC   435      checkPassword(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+80   0x00001000 0x00001000 GLOBAL FUNC   0        _init
+81   ---------- 0x000040d8 GLOBAL OBJ    0        __TMC_END__
+82   ---------- 0x000040e0 GLOBAL OBJ    272      std::cout
+86   0x000030c0 0x000040c0 GLOBAL NOTYPE 0        __data_start
+87   ---------- 0x00004320 GLOBAL NOTYPE 0        _end
+93   ---------- 0x000040d8 GLOBAL NOTYPE 0        __bss_start
+95   0x00001870 0x00001870 GLOBAL FUNC   101      __libc_csu_init
+102  0x000018e0 0x000018e0 GLOBAL FUNC   2        __libc_csu_fini
+103  ---------- 0x00004200 GLOBAL OBJ    280      std::cin
