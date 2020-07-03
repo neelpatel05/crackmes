@@ -1,0 +1,5 @@
+./adventure hello
+
+Friendly greetings to you, hacker from another world !
+So, why are you here ? : ./adventure
+./adventure ?  good, good, welcome to the guild hall!
