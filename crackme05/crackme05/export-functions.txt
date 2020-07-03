@@ -1,0 +1,26 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+9    0x00000c84 0x08048c84 GLOBAL OBJ    4        _IO_stdin_used
+45   0x00000c60 0x08048c60 GLOBAL FUNC   2        __libc_csu_fini
+48   0x00000460 0x08048460 GLOBAL FUNC   4        __x86.get_pc_thunk.bx
+51   ---------- 0x0804b034 GLOBAL NOTYPE 0        _edata
+52   0x000007c9 0x080487c9 GLOBAL FUNC   246      bomb
+53   0x00000c64 0x08048c64 GLOBAL FUNC   0        _fini
+55   0x00000aec 0x08048aec GLOBAL FUNC   128      scissors
+56   0x0000202c 0x0804b02c GLOBAL NOTYPE 0        __data_start
+60   0x00002030 0x0804b030 GLOBAL OBJ    0        __dso_handle
+63   0x00000bf0 0x08048bf0 GLOBAL FUNC   97       __libc_csu_init
+65   ---------- 0x0804b038 GLOBAL NOTYPE 0        _end
+66   0x00000430 0x08048430 GLOBAL FUNC   0        _start
+67   0x00000c80 0x08048c80 GLOBAL OBJ    4        _fp_hw
+68   0x000008bf 0x080488bf GLOBAL FUNC   330      rock
+69   ---------- 0x0804b034 GLOBAL NOTYPE 0        __bss_start
+70   0x0000052d 0x0804852d GLOBAL FUNC   546      main
+71   0x0000074f 0x0804874f GLOBAL FUNC   39       usage
+73   ---------- 0x0804b034 GLOBAL OBJ    0        __TMC_END__
+74   0x00000b6c 0x08048b6c GLOBAL FUNC   129      cracker
+76   0x00000a09 0x08048a09 GLOBAL FUNC   227      paper
+77   0x00000378 0x08048378 GLOBAL FUNC   0        _init
+78   0x00000776 0x08048776 GLOBAL FUNC   83       decraycray

@@ -1,0 +1,35 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000ca0 0x08048ca0 6   7    .rodata ascii --help
+1   0x00000cac 0x08048cac 113 114  .rodata ascii Passed serial is invalid! Just flip your table when you're stuck, it will solve your problem certainly!\n...right?
+2   0x00000d30 0x08048d30 4   5    .rodata ascii E\f\nV
+3   0x00000d37 0x08048d37 4   5    .rodata ascii DLU9
+4   0x00000d57 0x08048d57 6   7    .rodata ascii SR\vO\aT
+5   0x00000d5e 0x08048d5e 5   6    .rodata ascii \fKHOI
+6   0x00000d68 0x08048d68 4   5    .rodata ascii \tX\aO
+7   0x00000d6e 0x08048d6e 7   8    .rodata ascii \bEWeX3N
+8   0x00000d7d 0x08048d7d 4   5    .rodata ascii C!U5
+9   0x00000d94 0x08048d94 276 277  .rodata ascii Welcome to crackme05 reverser!\nYour task is simple, figure out a way to generate valid serials.\nPatching is as expected not allowed. Write a keygen and tell us\nhow you solved the crackme.\n\nInvoke the crackme with your serial as the first argument to check\nfor a valid serial.\n
+10  0x00000ea9 0x08048ea9 17  18   .rodata ascii Usage: %s serial\n
+11  0x00000ebb 0x08048ebb 17  18   .rodata ascii      `9MMP'      
+12  0x00000ecd 0x08048ecd 17  18   .rodata ascii      0088MM      
+13  0x00000edf 0x08048edf 17  18   .rodata ascii      ,d08b.  '|` 
+14  0x00000ef1 0x08048ef1 17  18   .rodata ascii        __/   -*- 
+15  0x00000f03 0x08048f03 17  18   .rodata ascii           ,--.!, 
+16  0x00000f15 0x08048f15 16  17   .rodata ascii \n%s\n%s\n%s\n%s\n%s\n
+17  0x00000f28 0x08048f28 79  80   .rodata ascii Good job, you solved it in a glance! Now make a keygen...... or is this a trap?
+18  0x00000f86 0x08048f86 6   7    .rodata ascii O\fCTY\t
+19  0x00000f8f 0x08048f8f 6   7    .rodata ascii \n\bXE-\a
+20  0x00000fbe 0x08048fbe 5   6    .rodata ascii \*DSt
+21  0x00000fce 0x08048fce 17  18   .rodata ascii QROCK 1: %i - %c\n
+22  0x00000fe0 0x08048fe0 16  17   .rodata ascii ROCK 2: %i - %c\n
+23  0x00000ff1 0x08048ff1 16  17   .rodata ascii ROCK 3: %i - %c\n
+24  0x00001002 0x08049002 28  29   .rodata ascii ROCK 4: Serial not 19 chars!
+25  0x0000101f 0x0804901f 7   8    .rodata ascii Paper 1
+26  0x00001027 0x08049027 13  14   .rodata ascii Paper 1 lower
+27  0x00001035 0x08049035 7   8    .rodata ascii Paper 2
+28  0x0000103d 0x0804903d 7   8    .rodata ascii Paper 3
+29  0x00001045 0x08049045 10  11   .rodata ascii Scissors 1
+30  0x00001050 0x08049050 10  11   .rodata ascii Scissors 2
+31  0x0000105b 0x0804905b 9   10   .rodata ascii cracker 1
