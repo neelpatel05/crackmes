@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000854 0x00000854 21  22   .rodata ascii Usage: %s <password>\n
+1   0x0000086a 0x0000086a 9   10   .rodata ascii Good job!
+2   0x00000874 0x00000874 15  16   .rodata ascii Wrong password!
