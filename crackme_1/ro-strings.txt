@@ -1,0 +1,8 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000a20 0x08048a20 4   5    .rodata ascii .OCP
+1   0x00000a25 0x08048a25 5   6    .rodata ascii Name:
+2   0x00000a2b 0x08048a2b 9   10   .rodata ascii Password:
+3   0x00000a35 0x08048a35 4   5    .rodata ascii Bad!
+4   0x00000a3a 0x08048a3a 5   6    .rodata ascii Good!

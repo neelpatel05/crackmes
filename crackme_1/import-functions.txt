@@ -1,0 +1,17 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x080485f0 GLOBAL FUNC       __cxa_atexit
+2   0x08048600 WEAK   NOTYPE     __gmon_start__
+3   0x00000000 WEAK   NOTYPE     _Jv_RegisterClasses
+4   0x08048610 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+5   0x08048620 GLOBAL FUNC       __libc_start_main
+6   0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+7   0x08048640 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+8   0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+9   0x08048650 GLOBAL FUNC       setlocale
+10  0x08048660 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*)
+11  0x08048670 GLOBAL FUNC       __stack_chk_fail
+12  0x08048680 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+15  0x08048630 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+

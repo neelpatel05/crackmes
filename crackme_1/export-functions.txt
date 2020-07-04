@@ -1,0 +1,23 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+13   ---------- 0x0804a040 GLOBAL OBJ    144      std::cin
+14   0x00000a1c 0x08048a1c GLOBAL OBJ    4        _IO_stdin_used
+16   ---------- 0x0804a0e0 GLOBAL OBJ    140      std::cout
+48   ---------- 0x0804a040 GLOBAL OBJ    144      std::cin
+50   0x00000a00 0x08048a00 GLOBAL FUNC   2        __libc_csu_fini
+51   0x0000088f 0x0804888f GLOBAL FUNC   0        _start
+54   0x00000a18 0x08048a18 GLOBAL OBJ    4        _fp_hw
+55   0x00000a04 0x08048a04 GLOBAL FUNC   0        _fini
+63   0x00001034 0x0804a034 GLOBAL NOTYPE 0        __data_start
+64   0x000008c0 0x080488c0 GLOBAL FUNC   4        __x86.get_pc_thunk.bx
+65   ---------- 0x0804a03c GLOBAL OBJ    0        __TMC_END__
+66   ---------- 0x0804a0e0 GLOBAL OBJ    140      std::cout
+67   0x00001038 0x0804a038 GLOBAL OBJ    0        __dso_handle
+69   0x00000990 0x08048990 GLOBAL FUNC   97       __libc_csu_init
+71   ---------- 0x0804a03c GLOBAL NOTYPE 0        __bss_start
+73   ---------- 0x0804a170 GLOBAL NOTYPE 0        _end
+75   ---------- 0x0804a03c GLOBAL NOTYPE 0        _edata
+76   0x00000690 0x08048690 GLOBAL FUNC   453      main
+77   0x000005b0 0x080485b0 GLOBAL FUNC   0        _init
