@@ -1,0 +1,8 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x000006d0 0x080496d0 24  25   .data   ascii Found invalid character!
+1   0x000006e9 0x080496e9 23  24   .data   ascii Usage: %s [serial-key]\n
+2   0x00000701 0x08049701 31  32   .data   ascii Your key must be 16 characters.
+3   0x00000721 0x08049721 39  40   .data   ascii Congratulation, You are registered now.
+4   0x00000749 0x08049749 28  29   .data   ascii Sorry, the code was invalid.
