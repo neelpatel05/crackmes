@@ -1,0 +1,13 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00001490 0x00401490 55  56   .rodata ascii Did you really think that you can mess around with me?!
+1   0x000014c8 0x004014c8 105 106  .rodata ascii I am a 'crack me' program for God's sake.. Debugging tools like that..?\nShow some respect ;)\n\nOutta here.
+2   0x00001532 0x00401532 29  30   .rodata ascii *** THE DOOR IS LOCKED! ***\n\n
+3   0x00001550 0x00401550 21  22   .rodata ascii Gimme your password: 
+4   0x00001566 0x00401566 4   5    .rodata ascii exit
+5   0x00001570 0x00401570 92  93   .rodata ascii \n\nWrong password!!\nTry again fella or type "exit" to..\nwell.. should I really explain this?\n
+6   0x000015cf 0x004015cf 29  30   .rodata ascii *****************************
+7   0x000015ed 0x004015ed 29  30   .rodata ascii *** THE DOOR IS UNLOCKED! ***
+8   0x00001610 0x00401610 76  77   .rodata ascii \n\nYou did it broughhh!! :D High five dude! :D\nAnyway.. here is your prize :3
+9   0x00001660 0x00401660 109 110  .rodata ascii \n\t http://cdn.business2community.com/wp-content/uploads/2014/10/Witch-Hat-Cat-Costume-For-Halloween.jpg.jpg\n\n
