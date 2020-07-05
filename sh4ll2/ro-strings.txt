@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0000089a 0x0000089a 12  13   .rodata ascii Good pasword
+1   0x000008a7 0x000008a7 12  13   .rodata ascii Bad password
+2   0x000008ba 0x000008ba 4   5    .rodata ascii L?f6
