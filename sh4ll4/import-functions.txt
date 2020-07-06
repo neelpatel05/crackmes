@@ -1,0 +1,15 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+2   0x00000680 GLOBAL FUNC       puts
+3   0x00000690 GLOBAL FUNC       strlen
+4   0x00000000 GLOBAL FUNC       __libc_start_main
+5   0x000006a0 GLOBAL FUNC       fgets
+6   0x000006b0 GLOBAL FUNC       strcmp
+7   0x00000000 WEAK   NOTYPE     __gmon_start__
+8   0x000006c0 GLOBAL FUNC       ptrace
+9   0x00000000 WEAK   NOTYPE     _Jv_RegisterClasses
+10  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+11  0x00000000 WEAK   FUNC       __cxa_finalize
+

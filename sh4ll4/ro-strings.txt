@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000ca8 0x00000ca8 19  20   .rodata ascii 142x142x121x1424421
+1   0x00000cbc 0x00000cbc 20  21   .rodata ascii 142x142x121x1424421x
+2   0x00000cd8 0x00000cd8 30  31   .rodata ascii YEAAAAAAAAAH YOU ARE GOOD MAN!
+3   0x00000cf8 0x00000cf8 88  89   .rodata ascii Bad password, you can buy the product by sending $10: 1Fn3N79g2soMWQES2ZWVUu59Y4xKf3hWKh
