@@ -1,0 +1,18 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00000000 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+2   0x00001030 GLOBAL FUNC       sym.imp.std::istream::operator>>(int&)
+3   0x00001040 GLOBAL FUNC       __cxa_atexit
+4   0x00001050 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+5   0x00001060 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+6   0x00001070 GLOBAL FUNC       exit
+7   0x00001080 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+8   0x00001090 GLOBAL FUNC       sym.imp.std::ostream::operator<<(int)
+9   0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+10  0x00000000 GLOBAL FUNC       __libc_start_main
+11  0x00000000 WEAK   NOTYPE     __gmon_start__
+12  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+13  0x00000000 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+14  0x00000000 WEAK   FUNC       __cxa_finalize
+

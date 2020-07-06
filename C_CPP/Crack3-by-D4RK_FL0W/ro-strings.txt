@@ -1,0 +1,9 @@
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002005 0x00002005 26  27   .rodata ascii   Please Enter The Passcode:
+1   0x00002020 0x00002020 7   8    .rodata ascii   \nWRONG\n
+2   0x00002028 0x00002028 13  14   .rodata ascii   \nYou Did It.\n
+3   0x00002036 0x00002036 12  13   .rodata ascii   Enter Digit 
+0   0x000030d0 0x000040d0 6   28   .data   utf32le FFF###
+1   0x00003100 0x00004100 4   20   .data   utf32le \aDDD

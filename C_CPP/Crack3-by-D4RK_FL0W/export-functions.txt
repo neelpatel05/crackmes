@@ -1,0 +1,28 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+15   ---------- 0x000042a0 GLOBAL OBJ    280      std::cin
+16   ---------- 0x00004180 GLOBAL OBJ    272      std::cout
+49   0x00003140 0x00004140 GLOBAL OBJ    40       p4
+50   ---------- 0x00004168 GLOBAL NOTYPE 0        _edata
+51   0x00001329 0x00001329 GLOBAL FUNC   146      get_code()
+53   0x00002000 0x00002000 GLOBAL OBJ    4        _IO_stdin_used
+55   0x000013bb 0x000013bb GLOBAL FUNC   127      get_digit(int*, int)
+56   0x00001195 0x00001195 GLOBAL FUNC   208      main
+58   0x00003068 0x00004068 GLOBAL OBJ    0        __dso_handle
+59   ---------- 0x000043c0 GLOBAL OBJ    16       code
+61   0x00001504 0x00001504 GLOBAL FUNC   0        _fini
+63   0x000010b0 0x000010b0 GLOBAL FUNC   43       _start
+66   ---------- 0x00004168 GLOBAL OBJ    0        __TMC_END__
+68   ---------- 0x00004180 GLOBAL OBJ    272      std::cout
+69   0x00003060 0x00004060 GLOBAL NOTYPE 0        __data_start
+70   ---------- 0x000043d8 GLOBAL NOTYPE 0        _end
+71   0x00003080 0x00004080 GLOBAL OBJ    40       p1
+72   ---------- 0x00004168 GLOBAL NOTYPE 0        __bss_start
+74   0x00001265 0x00001265 GLOBAL FUNC   196      check_code(int*)
+75   0x000014a0 0x000014a0 GLOBAL FUNC   93       __libc_csu_init
+76   0x000030c0 0x000040c0 GLOBAL OBJ    40       p2
+79   0x00001500 0x00001500 GLOBAL FUNC   1        __libc_csu_fini
+80   ---------- 0x000042a0 GLOBAL OBJ    280      std::cin
+82   0x00003100 0x00004100 GLOBAL OBJ    40       p3
