@@ -1,0 +1,12 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002008 0x00002008 19  20   .rodata ascii good luck next time
+1   0x00002020 0x00002020 58  59   .rodata ascii hmm... i'm not sure you know what the word "twins" mean :/
+2   0x0000205b 0x0000205b 28  29   .rodata ascii Abby: i'm older than that :(
+3   0x00002078 0x00002078 29  30   .rodata ascii Gabby: i'm older than that :(
+4   0x00002098 0x00002098 72  73   .rodata ascii Abby & Gabby: for god's sake we are TWINS! we were born the same night!!
+5   0x000020e8 0x000020e8 43  44   .rodata ascii Abby & Gabby: we are not "odd" years old :(
+6   0x00002118 0x00002118 42  43   .rodata ascii Abby & Gabby: we're half twins you know...
+7   0x00002148 0x00002148 43  44   .rodata ascii Abby & Gabby: we are only HALF twins... :3 
+8   0x00002178 0x00002178 34  35   .rodata ascii Abby & Gabby: yaayy!! nice job! :D

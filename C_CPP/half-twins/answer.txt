@@ -1,0 +1,16 @@
+python crack.py
+Twin 1 (Arg 1): vambrswl
+Twin 2 (Arg 2): vambnbki
+Twin 1 (Arg 1): fwfyogzoaz
+Twin 2 (Arg 2): fwfyolrqlf
+Twin 1 (Arg 1): wqhjjjddqszd
+Twin 2 (Arg 2): wqhjjjftmojg
+Twin 1 (Arg 1): ffkpwporvnkpuu
+Twin 2 (Arg 2): ffkpwpooobfmsa
+Twin 1 (Arg 1): lttsxrrebwlkwxav
+Twin 2 (Arg 2): lttsxrreydjugchn
+Twin 1 (Arg 1): inuoytegttqxaewccw
+Twin 2 (Arg 2): inuoytegtvsdjdymym
+
+./half-twins inuoytegttqxaewccw inuoytegtvsdjdymym
+Abby & Gabby: yaayy!! nice job! :D
