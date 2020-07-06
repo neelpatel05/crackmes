@@ -1,0 +1,31 @@
+arch     x86
+baddr    0x400000
+binsz    25199
+bintype  elf
+bits     64
+canary   false
+class    ELF64
+compiler GCC: (Ubuntu 8.3.0-6ubuntu1) 8.3.0 clang version 8.0.0-3 (tags/RELEASE_800/final)
+crypto   false
+endian   little
+havecode true
+intrp    /lib64/ld-linux-x86-64.so.2
+laddr    0x0
+lang     c++
+linenum  false
+lsyms    false
+machine  AMD x86-64 architecture
+maxopsz  16
+minopsz  1
+nx       true
+os       linux
+pcalign  0
+pic      false
+relocs   false
+relro    partial
+rpath    NONE
+sanitiz  false
+static   false
+stripped true
+subsys   linux
+va       true

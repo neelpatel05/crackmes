@@ -1,0 +1,8 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00004004 0x00404004 10  11   .rodata ascii Password: 
+1   0x0000400f 0x0040400f 19  20   .rodata ascii Login unsuccessful.
+2   0x00004023 0x00404023 17  18   .rodata ascii Login successful.
+3   0x00004035 0x00404035 41  42   .rodata ascii basic_string::_M_construct null not valid
+4   0x0000405f 0x0040405f 23  24   .rodata ascii basic_string::_M_create

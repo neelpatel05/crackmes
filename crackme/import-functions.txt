@@ -1,0 +1,36 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00402030 GLOBAL FUNC       sym.imp.std::allocator<char>::~allocator()
+2   0x00402040 GLOBAL FUNC       sym.imp.std::terminate()
+3   0x00402050 GLOBAL FUNC       sym.imp.std::__throw_bad_alloc()
+4   0x00402060 GLOBAL FUNC       __cxa_begin_catch
+5   0x00402070 GLOBAL FUNC       strlen
+6   0x00402090 GLOBAL FUNC       sym.imp.std::__throw_length_error(char const*)
+7   0x004020a0 GLOBAL FUNC       memset
+8   0x004020b0 GLOBAL FUNC       sym.imp.std::istream::operator>>(int&)
+9   0x004020c0 GLOBAL FUNC       sym.imp.std::__throw_logic_error(char const*)
+10  0x004020d0 GLOBAL FUNC       memcpy
+11  0x004020e0 GLOBAL FUNC       __cxa_atexit
+12  0x004020f0 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+13  0x00402100 GLOBAL FUNC       sym.imp.operator delete(void*)
+14  0x00402110 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+15  0x00402120 GLOBAL FUNC       sym.imp.operator new(unsigned long)
+16  0x00402130 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+17  0x00402140 GLOBAL FUNC       sym.imp.std::allocator<char>::~allocator()
+18  0x00402150 GLOBAL FUNC       exit
+19  0x00402160 GLOBAL FUNC       __cxa_call_unexpected
+20  0x00402170 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char&)
+21  0x00402180 GLOBAL FUNC       sym.imp.std::allocator<char>::allocator(std::allocator<char> const&)
+22  0x00402190 GLOBAL FUNC       __cxa_rethrow
+23  0x004021a0 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+24  0x004021b0 GLOBAL FUNC       __cxa_end_catch
+25  0x004021d0 GLOBAL FUNC       _Unwind_Resume
+26  0x004021e0 GLOBAL FUNC       sym.imp.std::allocator<char>::allocator()
+27  0x00000000 GLOBAL FUNC       __libc_start_main
+28  0x00000000 WEAK   NOTYPE     __gmon_start__
+36  0x004021f0 GLOBAL FUNC       __cxa_pure_virtual
+39  0x004021c0 GLOBAL FUNC       __gxx_personality_v0
+41  0x00402200 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+44  0x00402080 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+
