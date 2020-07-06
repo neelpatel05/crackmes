@@ -1,0 +1,12 @@
+malloc(50)                                                     = 0x55d8789ce2a0
+printf("Feed me the right password: ")                         = 28
+__isoc99_scanf(0x55d878451025, 0x55d8789ce2a0, 0, 0asdfasdf
+)           = 1
+malloc(50)                                                     = 0x55d8789cf700
+strcmp("asdfasdf", "bd23cf3f56baa86bc")                        = -1
+puts("ERROR")                                                  = 6
++++ exited (status 0) +++
+
+
+./alien-bin
+0x55d8789cf700
