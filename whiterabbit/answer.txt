@@ -1,0 +1,4 @@
+gdb-peda$ jump secret
+Continuing at 0x555555555149.
+flag{3sc0nd1d0_3h_M41s_G0st0S0}
+[Inferior 1 (process 3678) exited with code 040]

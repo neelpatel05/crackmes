@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002008 0x00002008 47  48   .rodata ascii flag{%d%c%c%dn%c%d%c%d_%dh_M%d%ds_G%d%ct%dS%d}\n
+1   0x00002038 0x00002038 31  32   .rodata ascii The only way out is inward\n\n\n\n\n
+2   0x00002060 0x00002060 39  40   .rodata ascii Voce consegue achar a funcao escondida?
