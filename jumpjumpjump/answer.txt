@@ -1,0 +1,4 @@
+enter the magic string
+nnnnnnnnn
+
+flag is flag{!#&*/5<DMW}

@@ -1,0 +1,20 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+11   ---------- 0x00004050 GLOBAL OBJ    8        stdin
+45   0x00001360 0x00001360 GLOBAL FUNC   2        __libc_csu_fini
+50   ---------- 0x00004050 GLOBAL OBJ    8        stdin@@GLIBC_2.2.5
+51   ---------- 0x00004050 GLOBAL NOTYPE 0        _edata
+52   0x00001364 0x00001364 GLOBAL FUNC   0        _fini
+57   0x00001175 0x00001175 GLOBAL FUNC   85       strcat_str
+58   0x00003040 0x00004040 GLOBAL NOTYPE 0        __data_start
+60   0x00003048 0x00004048 GLOBAL OBJ    0        __dso_handle
+61   0x00002000 0x00002000 GLOBAL OBJ    4        _IO_stdin_used
+62   0x000012f0 0x000012f0 GLOBAL FUNC   101      __libc_csu_init
+63   ---------- 0x00004070 GLOBAL NOTYPE 0        _end
+64   0x00001090 0x00001090 GLOBAL FUNC   43       _start
+65   ---------- 0x00004050 GLOBAL NOTYPE 0        __bss_start
+66   0x000011ca 0x000011ca GLOBAL FUNC   290      main
+67   ---------- 0x00004050 GLOBAL OBJ    0        __TMC_END__
+70   0x00001000 0x00001000 GLOBAL FUNC   0        _init
