@@ -1,0 +1,16 @@
+python crack.py
+
+Enter the username lowercase between 3 to 9: asdfasdf
+The Key is: ialnialn
+
+./keygenme
+
+Hi! can you  write a keygen for this challenge, don't just patch :)  
+
+Enter Username: asdfasdf
+Enter a Key: ialnialn
+
+
+Congratulation you got the Key !
+
+
