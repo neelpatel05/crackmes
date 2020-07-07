@@ -1,0 +1,21 @@
+[Exports]
+
+nth paddr       vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+26   ---------- 0x000041e0 GLOBAL OBJ    280      std::cin
+27   ---------- 0x000040c0 GLOBAL OBJ    272      std::cout
+50   ---------- 0x000040b8 GLOBAL NOTYPE 0        _edata
+52   0x00002000 0x00002000 GLOBAL OBJ    4        _IO_stdin_used
+56   0x00001235 0x00001235 GLOBAL FUNC   736      main
+58   0x000030a8 0x000040a8 GLOBAL OBJ    0        __dso_handle
+62   0x000017f4 0x000017f4 GLOBAL FUNC   0        _fini
+64   0x00001150 0x00001150 GLOBAL FUNC   43       _start
+67   ---------- 0x000040b8 GLOBAL OBJ    0        __TMC_END__
+71   ---------- 0x000040c0 GLOBAL OBJ    272      std::cout
+73   0x00001515 0x00001515 GLOBAL FUNC   342      gks(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)
+74   0x000030a0 0x000040a0 GLOBAL NOTYPE 0        __data_start
+75   ---------- 0x00004300 GLOBAL NOTYPE 0        _end
+79   ---------- 0x000040b8 GLOBAL NOTYPE 0        __bss_start
+81   0x00001790 0x00001790 GLOBAL FUNC   93       __libc_csu_init
+87   0x000017f0 0x000017f0 GLOBAL FUNC   1        __libc_csu_fini
+88   ---------- 0x000041e0 GLOBAL OBJ    280      std::cin

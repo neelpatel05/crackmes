@@ -1,0 +1,29 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00001030 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2   0x00001040 GLOBAL FUNC       memcmp
+3   0x00000000 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+4   0x00001050 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+5   0x00001060 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const
+6   0x00001070 GLOBAL FUNC       __cxa_atexit
+7   0x00001080 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+8   0x00001090 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+9   0x000010a0 GLOBAL FUNC       exit
+10  0x000010b0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+11  0x000010c0 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+12  0x000010d0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data() const
+13  0x000010e0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
+14  0x000010f0 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::length() const
+15  0x00001100 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+16  0x00001110 GLOBAL FUNC       isalpha
+17  0x00000000 GLOBAL FUNC       __gxx_personality_v0
+18  0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+19  0x00001120 GLOBAL FUNC       _Unwind_Resume
+20  0x00000000 GLOBAL FUNC       __libc_start_main
+21  0x00000000 WEAK   NOTYPE     __gmon_start__
+22  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+23  0x00001130 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)
+24  0x00000000 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+25  0x00000000 WEAK   FUNC       __cxa_finalize
+

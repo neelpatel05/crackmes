@@ -1,0 +1,11 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002010 0x00002010 73  74   .rodata ascii \n\nHi! can you  write a keygen for this challenge, don't just patch :)  \n\n
+1   0x0000205a 0x0000205a 16  17   .rodata ascii Enter Username: 
+2   0x00002070 0x00002070 39  40   .rodata ascii You have entered an invalid username. \n
+3   0x00002098 0x00002098 42  43   .rodata ascii Please try again. with a valid username \n\n
+4   0x000020c8 0x000020c8 81  82   .rodata ascii \nPlease enter a valid username. numbers and special characters are not allowed.\n\n
+5   0x0000211a 0x0000211a 13  14   .rodata ascii Enter a Key: 
+6   0x00002128 0x00002128 36  37   .rodata ascii \n\nCongratulation you got the Key !\n\n
+7   0x0000214d 0x0000214d 23  24   .rodata ascii Wrong key try again !\n\n
