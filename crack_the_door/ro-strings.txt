@@ -1,0 +1,35 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00001bd8 0x00401bd8 54  55   .rodata ascii  ___________________________________________________ \n
+1   0x00001c0f 0x00401c0f 20  21   .rodata ascii |\t\t\t\t\t            |\n
+2   0x00001c28 0x00401c28 54  55   .rodata ascii |        _____________________________________      |\n
+3   0x00001c60 0x00401c60 54  55   .rodata ascii |       |    * * * * * * * * * * * * * * *    |     |\n
+4   0x00001c98 0x00401c98 48  49   .rodata ascii |\t|    *    ---- :USERNAME: ----   *    |     |\n
+5   0x00001cc9 0x00401cc9 26  27   .rodata ascii |\t|    *\t\t\t\t *    |\t    |\n
+6   0x00001ce8 0x00401ce8 33  34   .rodata ascii |\t|    *\t\t\t         *    |     |\n
+7   0x00001d0a 0x00401d0a 26  27   .rodata ascii |\t|    *\t\t\t\t *    |     |\n
+8   0x00001d28 0x00401d28 48  49   .rodata ascii |\t|    *    ---- :PASSWORD: ----   *    |\t    |\n
+9   0x00001d60 0x00401d60 48  49   .rodata ascii |\t|     * * * * * * * * * * * * * *     |     |\n
+10  0x00001d98 0x00401d98 48  49   .rodata ascii |\t |___________________________________|      |\n
+11  0x00001dc9 0x00401dc9 13  14   .rodata ascii |\t\t\t\t\t\t    |\n
+12  0x00001dd8 0x00401dd8 54  55   .rodata ascii |          ________________________________         |\n
+13  0x00001e0f 0x00401e0f 20  21   .rodata ascii |\t  |\t\t\t\t   |\t    |\n
+14  0x00001e28 0x00401e28 45  46   .rodata ascii |\t  |  A  B  C  D  E  F  G  H  I  J  |\t    |\n
+15  0x00001e58 0x00401e58 45  46   .rodata ascii |\t  |  K  L  M  N  O  P  Q  R  S  T  |\t    |\n
+16  0x00001e88 0x00401e88 38  39   .rodata ascii |\t  |  U  V  W  X  Y  Z  \t\t   |\t    |\n
+17  0x00001eb0 0x00401eb0 51  52   .rodata ascii |         |  a  b  c  d  e  f  g  h  i  j  |\t    |\n
+18  0x00001ee8 0x00401ee8 45  46   .rodata ascii |\t  |  k  l  m  n  o  p  q  r  s  t  |\t    |\n
+19  0x00001f18 0x00401f18 44  45   .rodata ascii |\t  |  u  v  w  x  y  z \t           |\t    |\n
+20  0x00001f45 0x00401f45 26  27   .rodata ascii |\t  |      \t \t\t   |\t    |\n
+21  0x00001f60 0x00401f60 51  52   .rodata ascii |         |  0  1  2  3  4  5  6  7  8  9  |\t    |\n
+22  0x00001f98 0x00401f98 45  46   .rodata ascii |\t  |________________________________|\t    |\n
+23  0x00001fc8 0x00401fc8 54  55   .rodata ascii |___________________________________________________|\n
+24  0x00002000 0x00402000 109 110  .rodata ascii -- After searches during some years, you finally found the ship of Razpakhomon, the famous space pirate... --
+25  0x00002070 0x00402070 107 108  .rodata ascii -- On the door, there are a very old keyboards and a lcd screen asking for an username and a password... --
+26  0x000020e0 0x004020e0 165 166  .rodata ascii -- Nobody know how many diamonds and jewels there are behind this door; and if you find the password of Razpakhomon, you would be the richest man in the galaxy... --
+27  0x00002186 0x00402186 21  22   .rodata ascii  ---- :USERNAME: ----
+28  0x0000219c 0x0040219c 10  11   .rodata ascii BAD LENGTH
+29  0x000021a7 0x004021a7 21  22   .rodata ascii  ---- :PASSWORD: ----
+30  0x000021c0 0x004021c0 44  45   .rodata ascii That's it ! You will have all the diamonds !
+31  0x000021f0 0x004021f0 46  47   .rodata ascii Unfortunatly, this is not the good password...
