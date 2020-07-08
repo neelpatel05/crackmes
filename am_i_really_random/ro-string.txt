@@ -1,0 +1,10 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002010 0x00002010 63  64   .rodata ascii You dirty little cheater! rename me back to: crackMe-by-m00ny-1
+1   0x00002050 0x00002050 64  65   .rodata ascii or at least something with a minimum length of 16 characters ;-)
+2   0x00002091 0x00002091 16  17   .rodata ascii \nYou cracked me!
+3   0x000020a2 0x000020a2 12  13   .rodata ascii \n\tflag{%s}\n\n
+4   0x000020b0 0x000020b0 40  41   .rodata ascii \nnope, that was not the correct password
+5   0x000020d9 0x000020d9 21  22   .rodata ascii USAGE: %s <password>\n
+6   0x000020f0 0x000020f0 50  51   .rodata ascii INFO: there are multiple ways to solve this puzzle
