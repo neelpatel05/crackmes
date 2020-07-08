@@ -1,0 +1,14 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x08048410 GLOBAL FUNC       fgets
+2   0x08048420 GLOBAL FUNC       fclose
+3   0x08048430 GLOBAL FUNC       fwrite
+4   0x08048440 GLOBAL FUNC       puts
+5   0x08048450 WEAK   NOTYPE     __gmon_start__
+6   0x08048460 GLOBAL FUNC       exit
+7   0x08048470 GLOBAL FUNC       __libc_start_main
+8   0x08048480 GLOBAL FUNC       fopen
+9   0x08048490 GLOBAL FUNC       fileno
+10  0x080484a0 GLOBAL FUNC       ptrace
+

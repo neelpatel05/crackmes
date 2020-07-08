@@ -1,0 +1,3 @@
+[Strings]
+nth paddr vaddr len size section type string
+――――――――――――――――――――――――――――――――――――――――――――

@@ -1,0 +1,4 @@
+Please tell me my password: whyn0t
+
+The password is correct!
+Congratulations!!!

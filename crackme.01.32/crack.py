@@ -1,0 +1,9 @@
+len = 6
+key = 0x6c
+result = [0x1b, 0x04, 0x15, 0x02, 0x5c, 0x18]
+
+for i in result:
+	result = i ^ key
+	print(chr(result))
+
+
