@@ -1,0 +1,26 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x080485f8 GLOBAL FUNC       sprintf
+2   0x08048608 GLOBAL FUNC       popen
+3   0x08048618 GLOBAL FUNC       getpid
+4   0x08048628 WEAK   NOTYPE     __gmon_start__
+5   0x08048638 GLOBAL FUNC       rewind
+6   0x08048648 GLOBAL FUNC       fgets
+7   0x08048658 GLOBAL FUNC       __libc_start_main
+8   0x08048668 GLOBAL FUNC       wait
+9   0x08048678 GLOBAL FUNC       perror
+10  0x08048688 GLOBAL FUNC       free
+11  0x08048698 GLOBAL FUNC       fclose
+12  0x080486a8 GLOBAL FUNC       memcpy
+13  0x080486b8 GLOBAL FUNC       fopen
+14  0x080486c8 GLOBAL FUNC       printf
+15  0x080486d8 GLOBAL FUNC       malloc
+16  0x080486e8 GLOBAL FUNC       __stack_chk_fail
+17  0x080486f8 GLOBAL FUNC       sleep
+18  0x08048708 GLOBAL FUNC       puts
+19  0x08048718 GLOBAL FUNC       fork
+20  0x08048728 GLOBAL FUNC       fscanf
+21  0x08048738 GLOBAL FUNC       exit
+22  0x08048748 GLOBAL FUNC       pclose
+
