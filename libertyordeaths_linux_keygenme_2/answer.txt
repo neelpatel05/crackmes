@@ -1,0 +1,6 @@
+❯ ./keygenme
+Input name: neel
+Input serial: 436-896-neka
+Yay good job! 
+❯ 
+❯ 
