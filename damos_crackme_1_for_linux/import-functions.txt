@@ -1,0 +1,9 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x080482c8 GLOBAL FUNC       strlen
+2   0x080482d8 GLOBAL FUNC       __libc_start_main
+3   0x080482e8 GLOBAL FUNC       printf
+5   0x00000000 WEAK   NOTYPE     _Jv_RegisterClasses
+6   0x00000000 WEAK   NOTYPE     __gmon_start__
+

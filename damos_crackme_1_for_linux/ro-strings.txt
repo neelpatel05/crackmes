@@ -1,0 +1,6 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x000006f4 0x080486f4 11  12   .rodata ascii Bad Serial!
+1   0x00000700 0x08048700 12  13   .rodata ascii Good Serial!
+2   0x00000711 0x08048711 19  20   .rodata ascii Usage: %s <serial>\n
