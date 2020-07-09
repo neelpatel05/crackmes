@@ -1,0 +1,12 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x08048390 GLOBAL FUNC       getchar
+2   0x080483a0 WEAK   NOTYPE     __gmon_start__
+3   0x080483b0 GLOBAL FUNC       gets
+4   0x080483c0 GLOBAL FUNC       __libc_start_main
+5   0x080483d0 GLOBAL FUNC       printf
+6   0x080483e0 GLOBAL FUNC       atoi
+7   0x080483f0 GLOBAL FUNC       __stack_chk_fail
+8   0x08048400 GLOBAL FUNC       puts
+

@@ -1,0 +1,5 @@
+❯ ./crackme
+Input name: dddddd
+Input serial (numbers only): 50000000
+Yay good job! 
+ 

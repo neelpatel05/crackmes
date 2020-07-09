@@ -1,0 +1,5 @@
+[Exports]
+
+nth paddr       vaddr      bind   type size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――
+9    0x0000066c 0x0804866c GLOBAL OBJ  4        _IO_stdin_used

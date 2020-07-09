@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000670 0x08048670 12  13   .rodata ascii Input name: 
+1   0x0000067d 0x0804867d 29  30   .rodata ascii Input serial (numbers only): 
+2   0x0000069b 0x0804869b 14  15   .rodata ascii Yay good job! 
+3   0x000006aa 0x080486aa 12  13   .rodata ascii Nope sorry. 
