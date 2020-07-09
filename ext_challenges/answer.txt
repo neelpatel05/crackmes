@@ -1,0 +1,6 @@
+❯ python3 crack.py
+['r', 'u', 'n', 'g', 'i', 'r', 'l', '3', '4']
+rungirl34
+
+❯ ./xordemo rungirl34
+Jackpot
