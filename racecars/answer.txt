@@ -1,0 +1,4 @@
+rename the binary to plindrome name
+
+./aaaaaa
+That's exactly what I wanted!

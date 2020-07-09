@@ -1,0 +1,5 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002004 0x00002004 18  19   .rodata ascii Gimme what I want!
+1   0x00002017 0x00002017 29  30   .rodata ascii That's exactly what I wanted!
