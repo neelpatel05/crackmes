@@ -1,0 +1,29 @@
+arch     x86
+baddr    0x8048000
+binsz    738591
+bintype  elf
+bits     32
+canary   true
+class    ELF32
+compiler GCC: (Ubuntu 4.8.4-2ubuntu1~14.04.4) 4.8.4 GCC: (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     c
+linenum  true
+lsyms    true
+machine  Intel 80386
+maxopsz  16
+minopsz  1
+nx       true
+os       linux
+pcalign  0
+pic      false
+relocs   true
+rpath    NONE
+sanitiz  false
+static   true
+stripped false
+subsys   linux
+va       true
