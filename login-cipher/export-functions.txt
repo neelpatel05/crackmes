@@ -1,0 +1,5 @@
+[Exports]
+
+nth paddr       vaddr      bind   type size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――
+10   ---------- 0x00004018 GLOBAL OBJ  8        stdout

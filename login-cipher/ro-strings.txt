@@ -1,0 +1,10 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00002004 0x00002004 15  16   .rodata ascii Gtu.}'uj{fq!p{$
+1   0x00002014 0x00002014 7   8    .rodata ascii Lszl{{%
+2   0x0000201c 0x0000201c 14  15   .rodata ascii vx{!whvt|twg?%
+3   0x0000202b 0x0000202b 7   8    .rodata ascii %64[^\n]
+4   0x00002033 0x00002033 12  13   .rodata ascii fhz4yhx|~g=5
+5   0x00002040 0x00002040 8   9    .rodata ascii Ftyynjy*
+6   0x00002049 0x00002049 6   7    .rodata ascii Zwvup(
