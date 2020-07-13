@@ -1,0 +1,4 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x000015d0 0x000015d0 36  37   .rodata ascii you must supply exactly one argument
