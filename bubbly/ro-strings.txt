@@ -1,0 +1,7 @@
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00000914 0x00000914 12  13   .rodata ascii   cat flag.txt
+1   0x00000924 0x00000924 10  11   .rodata ascii   Well done!
+2   0x0000092f 0x0000092f 10  11   .rodata ascii   Try again!
+0   0x0000103c 0x0020103c 6   28   .data   utf32le \b\a\f\t\n\r

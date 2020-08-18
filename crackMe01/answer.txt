@@ -1,0 +1,5 @@
+Used JD-GUI java decompiler to decompile the jar file and the 4 digit pin was hard coded in the java code
+
+Enter an 8 digit code: 
+5256
+You have successfully logged in!
